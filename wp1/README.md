@@ -21,6 +21,6 @@ automatisch annotieren zu können.
   Um mit dem Projekt zu beginnen, folgen Sie den Anweisungen in `INSTALL.md`, um Ihre Entwicklungsumgebung einzurichten.
 
 ## Kontakt
-For any queries or further discussion, feel free to contact:
+Für jegliche Fragen oder Anregungen, kontaktieren sie:
 - Stefan Nitz (stefan.nitz@bioinfsys.uni-giessen.de)
 - Leonard Bumiller (leonard.bumiller@bioinfsys.uni-giessen.de)
