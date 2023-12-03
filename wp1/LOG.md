@@ -1,3 +1,8 @@
+# So 03.12.2023
+Stefan: Aufbereiten des episcanpy bug notebooks
+- Es sind 3 Bugs und nicht nur einer.
+- Ich habe das Notebook in den Slack gepostet, Jan soll mir die Bugs einmal validieren
+
 # Sa 02.12.2023
 Meeting zwischen wp1 und wp2
 TODOs:
@@ -6,8 +11,8 @@ TODOs:
   -> nächste Woche
 - Notebook / Daten von wp2 anschauen
 - data ordner in allstud/wp1 -> was kommt da rein?
-  -> gene metadaten dort hinlegen
-- ein main adata hd5a mit reproduktionsskript/notebook im git
+  -> gen-metadaten dort hinlegen
+- ein main adata h5ad mit reproduktionsskript/notebook im git
   -> Wie nennen wir das?
   -> Wie bauen wir das Skript/Notebook auf?
   %run von der cli?
