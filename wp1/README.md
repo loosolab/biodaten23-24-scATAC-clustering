@@ -1,8 +1,7 @@
 # WP1: scATAC-Seq Datenanalyse und Clustering-Projekt
 
 ## Über das Gesamtprojekt
-  Dieses Projekt konzentriert sich auf die Analyse von ATAC-Seq Daten mittels Clustering-Algorithmen und der Entwicklung der Residual Average Gini Index (RAGI) Metrik. Ziel ist es, Muster in der Chromatinzugänglichkeit auf Einzelzellebene zu erforschen und Cluster effektiv zu annotieren um Zelltypen
-automatisch annotieren zu können.
+  Dieses Projekt konzentriert sich auf die Analyse von ATAC-Seq Daten mittels Clustering-Algorithmen und der Entwicklung der Residual Average Gini Index (RAGI) Metrik. Ziel ist es, Muster in der Chromatinzugänglichkeit auf Einzelzellebene zu erforschen und effektiv Cluster zu bilden um Zelltypen automatisch annotieren zu können.
 
 ## Inhalt von WP1
 - Vorbereiten und Clustern der Daten
@@ -21,6 +20,6 @@ automatisch annotieren zu können.
   Um mit dem Projekt zu beginnen, folgen Sie den Anweisungen in `INSTALL.md`, um Ihre Entwicklungsumgebung einzurichten.
 
 ## Kontakt
-Für jegliche Fragen oder Anregungen, kontaktieren sie:
+Für jegliche Fragen oder Anregungen, kontaktieren Sie:
 - Stefan Nitz (stefan.nitz@bioinfsys.uni-giessen.de)
 - Leonard Bumiller (leonard.bumiller@bioinfsys.uni-giessen.de)
