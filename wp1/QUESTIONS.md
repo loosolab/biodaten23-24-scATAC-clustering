@@ -1,0 +1,1 @@
+Erst Regionen zu Genen zusammenfassen und dann Clustering / PCA oder andersrum?
