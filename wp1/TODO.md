@@ -6,7 +6,7 @@
     - Zelltypen annotieren
     - ARI auprobieren
 - RAGI über alle Gene (Features) ausführen
-  - Den Code von chen-2019 ausprobieren, erstmal ohne Housekeeping
+  - Den Code von chen-2019 ausprobieren, erstmal ohne Housekeeping Gene
 
 
 # TODO
