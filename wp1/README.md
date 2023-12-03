@@ -9,7 +9,7 @@ automatisch annotieren zu können.
 - Clusterevaluation
 - Weitere Details in `TASK.md`
 
-## Inhalt des Repositories
+## Inhalt des Ordners wp1
   - `COMMANDS.md`: Enthält nützliche Befehle für die Arbeit an diesem Projekt.
   - `INSTALL.md`: Enthält Anweisungen zur Einrichtung der virtuellen Maschine, Jupyter und Conda.
   - `LINKS.md`: Eine Sammlung wichtiger Tutorials und wissenschaftlicher Publikationen, die das Projekt unterstützen.
