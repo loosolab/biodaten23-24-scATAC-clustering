@@ -64,7 +64,7 @@
   - Einsatz von Cluster-Qualitätsmetriken zur Bewertung der Effektivität der angewendeten Clustering-Methoden und -Parameter.
 
 #### 6. Interaktion mit einer anderen Arbeitsgruppe
-  - Eine andere Gruppe wird die für RAGI identifizierten Marker verwenden, um den Zelltyp zu bestimmen. Ihre Aufgabe ist es, eine Schnittstelle zu dieser Gruppe zu erstellen.
+  - Eine andere Gruppe wird die identifizierten Cluster verwenden, um den Zelltyp zu bestimmen. Ihre Aufgabe ist es, eine Schnittstelle zu dieser Gruppe zu erstellen.
   - Die Schnittstelle sollte die Integration der von beiden Gruppen verwendeten Daten und Methoden ermöglichen.
 
 ### Anforderungen
