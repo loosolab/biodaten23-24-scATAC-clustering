@@ -20,39 +20,8 @@ def load_metadata(adata, metadata_path, seperator='\t', columns_to_keep=None):
     Returns:
         ---
     '''
-    #columns_to_keep = ['logUMI', 'tsse', 'cell type', 'Life stage']
-    #columns_to_keep = ['cell type']
-
-    metadata_f = pd.read_csv(metadata_path, sep = seperator, header = 0)
-
-    # column names cause issues later on if they contain a SPACE
-    # search for tags with space and replace it with a _
-    # Example: ['cellID', 'logUMI', 'tsse', 'tissue', 'cell type', 'Life stage']
-    metadata_f.columns = [column.replace(' ', '_') for column in metadata_f.columns]
-
-    adata_index = adata.obs.index
-
-    # check if columns_to_keep is not empty
-    if columns_to_keep:
-        # if not empty: Only select the specified metadata columns for the new dataframe
-        
-        # Get the cell_ids / barcodes from the first column, needed for assiging the right data to the right cells
-        cell_ids = [metadata_f.columns[0]]
-        columns_to_keep = cell_ids + columns_to_keep
-
-        columns_to_keep = [column.replace(' ', '_') for column in columns_to_keep] # Ajust column names to not include spaces
-        metadata_list = [tuple(getattr(row, column) for column in columns_to_keep) for row in metadata_f.itertuples(index=False)]
-        df = pd.DataFrame('NA', index=adata_index, columns=columns_to_keep[1:])
-    else:
-        # if empty: add all possible metadata columns to the dataframe
-        metadata_list = [tuple(row) for row in metadata_f.itertuples(index=False)]
-        df = pd.DataFrame('NA', index=adata_index, columns=metadata_f.columns)
-
-    # write the metadata values into the freshly created dataframe
-    for metadata_content_row in metadata_list:
-        df.loc[metadata_content_row[0], :] =  metadata_content_row[1:]
-    
-    #print(f"new df:\t{df}")
-
-    for col in df.columns:
-        adata.obs[col] = df[col]
+    metadata_df = pd.read_csv(metadata_path, sep = seperator, header = 0)
+    metadata_df.set_index('cellID', inplace=True)
+    if columns_to_keep is not None:
+        metadata_df = metadata_df[columns_to_keep]
+    adata.obs = adata.obs.merge(metadata_df, left_index=True, right_index=True)
