@@ -1,6 +1,7 @@
 # Best current cluster [Last updated: 13.12.2023]
 
 ## Preprocessing steps and order
+- Tissue: Esophagus muscularis
 - Metrics (calculate_qc_metrics)
 - Normalize (normalize_total)
 - log1p
