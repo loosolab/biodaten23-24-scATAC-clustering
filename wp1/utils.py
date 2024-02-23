@@ -15,17 +15,18 @@ def gini_coefficient(x):
 
 
 def ragi(adata, cluster_tag):
+    """ Compute ragi and save _gini_scores per region to adata.var"""
     if cluster_tag not in adata.obs:
         raise ValueError(f"Cluster column '{cluster_tag}' not found in adata.obs.")
 
     gini_tag = cluster_tag + "_gini_scores"
         
-    #if gini_tag in adata.var:
-    #    return adata.var[gini_tag].mean()
+    if gini_tag in adata.var:
+        return adata.var[gini_tag].mean()
         
     # Convert to CSC format for efficient column-wise operations
     data = adata.X.copy()
-    data[adata.X != 0] = 1
+    data[adata.X != 0] = 1 # binarize
     data_csc = csc_matrix(data)
 
     # Get cluster labels
@@ -35,28 +36,26 @@ def ragi(adata, cluster_tag):
     # Initialize a DataFrame to hold the results
     sum_per_cluster = pd.DataFrame(index=adata.var_names, columns=unique_clusters)
 
-    # Compute averages for each cluster
+    # Compute sums for each cluster
     for cluster in unique_clusters:
         # Get indices of cells in the cluster
         cell_indices = np.flatnonzero(clusters == cluster)
 
-        # Extract the submatrix for the cluster and compute the mean
+        # Extract the submatrix for the cluster and compute the sum
         cluster_submatrix = data_csc[cell_indices, :]
         cluster_sum = cluster_submatrix.sum(axis=0).A.squeeze()
         sum_per_cluster[cluster] = cluster_sum
     
-    # calculate number of cells in each region, should be in total_count, just making sure
+    # calculate number of cells in each region
     region_sum = sum_per_cluster.sum(axis=1)
     
-    # TODO is this even necessary after proper filtering?
-    # purge 0 values to handle div/0
+    # remove 0 values to handle div/0 (NaN)
     sum_per_cluster = sum_per_cluster[region_sum != 0]
     region_sum = region_sum[region_sum != 0]
 
     proportion_per_cluster = sum_per_cluster.div(region_sum, axis=0)
 
-    
-    # this takes looong (~30 mins)
+    # step that takes the longest
     gini_scores = proportion_per_cluster.apply(gini_coefficient, axis=1, raw=True)
     
     # save back to adata
@@ -69,17 +68,17 @@ def load_metadata(adata, metadata_path, seperator='\t', columns_to_keep=None):
     '''
     Loads in cell metadata in adata.obs of a given adata object.
 
-    Metadata file is expected to contain the cell identifiers in the first column.
+    Metadata file is expected to contain the cell identifiers "cellID"
     These identifiers won't be written to the adata object, but are needed for matching the right metadata to the cells.
     Example data: CATlas metadata
+    http://catlas.org/catlas_downloads/humantissues/Cell_metadata.tsv.gz
 
     Args:
         adata (adata object)   : adata object to be annotated
         metadata_path (string) : path to the metadata file
         seperator (string)     : [optional] seperator in the metadata file, default: tab
-        columns_to_keep (list) : [optional] list of strings, containing the column names to be written in the adata object. If not given  writes all columns to file.
+        columns_to_keep (list) : [optional] list of strings, containing the column names to be written in the adata object. If not given      writes all columns to file.
 
-    Returns:
         ---
     '''
     metadata_df = pd.read_csv(metadata_path, sep = seperator, header = 0)
@@ -89,10 +88,16 @@ def load_metadata(adata, metadata_path, seperator='\t', columns_to_keep=None):
     adata.obs = adata.obs.merge(metadata_df, left_index=True, right_index=True)
 
 
-def download(path, url):
+def download(path, url, zipped=True):
+    """" lazily downloads and optionally extracts file if it does not exist"""
     if os.path.exists(path):
         print(f"{path} already exists.")
     else:
         print(f"Downloading {os.path.basename(path)}...")
-        subprocess.Popen(f"wget -qO- {url} | gunzip > {path}", shell=True)
+        
+        if zipped:
+            subprocess.Popen(f"wget -qO- {url} | gunzip > {path}", shell=True)
+        else:
+            subprocess.Popen(f"wget -qO- {url} > {path}", shell=True)
+            
         print(f"Download and extraction of {os.path.basename(path)} complete.")
