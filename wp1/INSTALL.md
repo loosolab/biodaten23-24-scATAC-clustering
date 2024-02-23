@@ -19,8 +19,9 @@ python -m ipykernel install --user --name datenanalyse
 ## Weitere Dependencies
 ### Clustering Louvain und Leiden
 ```
-conda install -c conda-forge python-igraph leidenalg louvain
+conda install -c conda-forge python-igraph leidenalg louvain requests
 ```
 - `louvain`: Der eigentliche Louvain-Algorithmus
 - `leidenalg`: Der eigentliche Leiden-Algorithmus
 - `python-igraph`: wird von scanpy für `flavor=vtraag` von lovain benötigt
+- `requests`: For downloading data from the OLS Ontology Service
