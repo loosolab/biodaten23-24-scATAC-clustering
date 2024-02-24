@@ -1,25 +1,32 @@
-# WP1: scATAC-Seq Datenanalyse und Clustering-Projekt
+# WP1 - Preprocessing and Clustering
 
-## Über das Gesamtprojekt
-  Dieses Projekt konzentriert sich auf die Analyse von ATAC-Seq Daten mittels Clustering-Algorithmen und der Entwicklung der Residual Average Gini Index (RAGI) Metrik. Ziel ist es, Muster in der Chromatinzugänglichkeit auf Einzelzellebene zu erforschen und effektiv Cluster zu bilden um Zelltypen automatisch annotieren zu können.
+Quick recap of whole project
 
-## Inhalt von WP1
-- Vorbereiten und Clustern der Daten
-- Clusterevaluation
-- Weitere Details in `TASK.md`
+- What part does wp1 play in the whole project
+wp1 takes data from catlas and preprocesses it, reduces dimensions and creates and evaluates clusters on the cells. The data is then provided to wp2 with a known layout.
 
-## Inhalt des Ordners wp1
-  - `COMMANDS.md`: Enthält nützliche Befehle für die Arbeit an diesem Projekt.
-  - `INSTALL.md`: Enthält Anweisungen zur Einrichtung der virtuellen Maschine, Jupyter und Conda.
-  - `LINKS.md`: Eine Sammlung wichtiger Tutorials und wissenschaftlicher Publikationen, die das Projekt unterstützen.
-  - `METHOD.md`: Beschreibt die Vorgehensweise für das Projekt.
-  - `TASK.md`: Die detaillierte Aufgabenbeschreibung für das Gesamtprojekt und die spezifischen Arbeitspakete.
-  - `TODO.md`: Aufgaben im Rahmen des Projektes, sowohl ausstehende, als auch abgeschlossene.
+What did we do?
 
-## Installation
-  Um mit dem Projekt zu beginnen, folgen Sie den Anweisungen in `INSTALL.md`, um Ihre Entwicklungsumgebung einzurichten.
+- What can be found here?
+In the clustering.ipynb is our pipeline that reads catlas data, processes it and stores it for wp2 to access
 
-## Kontakt
-Für jegliche Fragen oder Anregungen, kontaktieren Sie:
-- Stefan Nitz (stefan.nitz@bioinfsys.uni-giessen.de)
-- Leonard Bumiller (leonard.bumiller@bioinfsys.uni-giessen.de)
+In detail:
+1. Read
+2. Filter
+3. Load cell metadata (ontology label)
+4. Annotate regions with uropa
+5. Dimension reduction
+6. Clustering
+7. Export
+
+
+- How can I run this notebook?
+- Install and execute
+
+What did we find?
+
+
+catlas
+http://catlas.org/catlas_downloads/humantissues/Cell_by_cCRE/matrix.h5ad
+The data we use is stored at /mnt/workspace_stud/mbentse/catlas_objects
+And the whole matrix is split into tissue specific subsets.9+++9
