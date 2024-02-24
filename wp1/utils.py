@@ -96,8 +96,8 @@ def download(path, url, zipped=True):
         print(f"Downloading {os.path.basename(path)}...")
         
         if zipped:
-            subprocess.Popen(f"wget -qO- {url} | gunzip > {path}", shell=True)
+            subprocess.Popen(f"wget -qO- {url} | gunzip > {path}", shell=True).wait()
         else:
-            subprocess.Popen(f"wget -qO- {url} > {path}", shell=True)
+            subprocess.Popen(f"wget -qO- {url} > {path}", shell=True).wait()
             
         print(f"Download and extraction of {os.path.basename(path)} complete.")
