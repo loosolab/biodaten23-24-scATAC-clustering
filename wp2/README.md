@@ -27,9 +27,6 @@ The segment below has information about the functionality of the main components
 #### 1.1 Marker Lists:
 - Marker lists represented as Pandas DataFrames, stored in YAML files as "key.yaml"
 - YAML format as Two Column Style --> The First column is the "Marker" (gene) and the second column is the  "Info" (cell type)
-- "key.yaml" consists of two main sections: metadata and marker_list
-- whitelist attribute needs to be run first to avoid data inconsistencies
-- Marker identifiers: Ensembl ID or GeneSymbol
 
 #### 1.1.1 Adding marker lists: step-by-step
 - This section is explained in detail in file: submit_new_marker_list_notebook.ipynb (please see codes section)
@@ -45,8 +42,6 @@ The segment below has information about the functionality of the main components
 
 ### 2. Annotate using Scanpy
 - t1.rank_gene_groups: this function calculates a score for the potential cell types based on the marker lists it uses as input --> the scores are used to annotate the AnnData object
-- - Creating marker lists: compiles existing marker lists based on user-defined criteria that can be integrated
-  into subsequent analyses
 
 ### 2.1 Annotating AnnData: annotating clustered h5ad files via the Annotation Jupyter Notebook (4 steps)
 1. Information entry: define the repository path, the h5ad file to annotate, the organism of interest, and other variables
@@ -62,7 +57,7 @@ The segment below has information about the functionality of the main components
 ### 3. Evaluate
 - Ontology labels were used as reference data to evaluate the accuracy of the annotation produced by the MarkerRepo
 - Homology-based annotation: evaluate the effects on the annotation when using translated human markers vs. using human markers
-- Automate the annotation process as much as possible (the functions are described in detail in codes section) 
+- Automate the annotation process as much as possible, the functions are described in the files: auto_annotation.py and auto_annotation_notebook.ipynb) (please see codes section)
 
 
 
