@@ -57,18 +57,18 @@ The segment below has information about the functionality of the main components
 
 
 ## Contents 
-- [Install.md](./Install.md): 
-- [codes](./codes/):
-  - [auto_annotation.py](./codes/auto_annotation.py):
+- [Install.md](./Install.md): Installation Guide for Runtime Environment
+- [codes](./codes/): code folder
+  - [auto_annotation.py](./codes/auto_annotation.py): 
   - [auto_annotation_notebook.ipynb](./codes/auto_annotation_notebook.ipynb):
   - [homology_notebook.ipynb](./codes/homology_notebook.ipynb):
   - [submit_new_marker_list_notebook.ipynb](./codes/submit_new_marker_list_notebook.ipynb):
 - [data](./data/):
-  - [DataSheet1.XLSX](./data/DataSheet1.XLSX):
-  - [DataSheet2.XLSX](./data/DataSheet2.XLSX):
-  - [source_from_wp1](./data/source_from_wp1/):
-- [results](./results/):
-- [archive](./archive/):
+  - [DataSheet1.XLSX](./data/DataSheet1.XLSX): 
+  - [DataSheet2.XLSX](./data/DataSheet2.XLSX): 
+  - [source_from_wp1](./data/source_from_wp1/): All used metadata files
+- [results](./results/): Result folder for different metadata
+- ~~[archive](./archive/): Outdated documents~~
 
 ## Installation
 To start the project, follow the instructions in [Install.md](./Install.md) to set up your development environment.
