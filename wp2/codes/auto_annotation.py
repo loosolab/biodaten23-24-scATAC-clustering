@@ -23,7 +23,7 @@ except ModuleNotFoundError:
     warnings.warn("Please install the latest sctoolbox version. Some functionality may not be available.", RuntimeWarning)
 
 # This function returns a list of the clustering methods used from the loaded AnnData object
-# The AnnData must be given as an input parameter for it contains the clustering information (Louvain, Leiden or Kmeans)
+# The clustering methods are saved in the AnnData.uns as a dictionary from WP1.
 def get_clustering_column_list(adata):
     return list(adata.uns["clusters"].keys())
 
@@ -307,6 +307,11 @@ def run_annotation_new(adata, marker_repo=True, SCSA=False, marker_lists=None, m
         If True, the function will not ask for confirmation before overwriting existing files.
     celltype_column_name : str, default None
         The name of the selected cell type annotation column. If None, all annotation columns will be kept.
+    ---
+    save_results_to_md: bool, default False
+        If True, the function will write clustering plots and comparison tables into a markdown file.
+    ha5d_path: str, default False
+        This is the path of ha5d file, used to name the markdown file.
     """
 
     if not marker_repo and not SCSA:
@@ -415,6 +420,7 @@ def run_annotation_new(adata, marker_repo=True, SCSA=False, marker_lists=None, m
         columns_to_remove = [col for col in annotation_columns if col not in columns_to_keep]
         adata.obs.drop(columns=columns_to_remove, inplace=True)
     
+    # save results to a markdown file
     if save_results_to_md:
         with open(f'results_{ha5d_path.split("/")[-1]}.md', 'a') as f:
             f.write(f"![](./figures/umap{clustering_column}.png)\n")
@@ -423,14 +429,10 @@ def run_annotation_new(adata, marker_repo=True, SCSA=False, marker_lists=None, m
 
     return clustering_column, comparison_df, umap_plot_file, auto_show_tables(annotation_dir=annotation_dir, n=5, clustering_column=clustering_column, show_diff=True)
 
-<<<<<<< HEAD
-def multiple_annotation(adata, marker_lists, clustering_column_lists, rank_genes_column, celltype_column_name, save_results_to_md, ha5d_path):
-=======
 # "multiple_annotation" performs the annotation for multiple clustering columns based on the marker lists and returns the annotation results
 # This allows a facilitated comparison between different clusterings
 # The annotation results are stored as a list
-def multiple_annotation(adata, marker_lists, clustering_column_lists, rank_genes_column, celltype_column_name):
->>>>>>> b8421a83bbbed62e4aae8e2a561e98cd384f4d59
+def multiple_annotation(adata, marker_lists, clustering_column_lists, rank_genes_column, celltype_column_name, save_results_to_md, ha5d_path):
     annotation_results = []
 
     for column in clustering_column_lists:
@@ -495,7 +497,7 @@ def create_compare_df(adata, annotation_results, clustering_column_list):
     cell_types = list(set(value for df in annotation_results for value in df[1].iloc[:,0]))
     cell_types.append("ari_score")
 
-# This DataFrame summarizes the cell type annotations across the different clustering columns    
+    # This DataFrame summarizes the cell type annotations across the different clustering columns    
     merge_df = pd.DataFrame(columns=clustering_column_list, index=cell_types)
     merge_df = merge_df.fillna("")
 
@@ -516,7 +518,7 @@ def create_compare_df(adata, annotation_results, clustering_column_list):
 
     return merge_df
 
-# Finally, this function helps the user find and display a table from a specific cluster from the annotation results
+# This function helps the user find and display a table from a specific cluster from the annotation results
 def find_cluster(methode, cluster_num, annotation_results):
     for df in annotation_results:
         if methode == str(df[0]):
