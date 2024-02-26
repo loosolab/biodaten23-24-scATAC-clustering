@@ -20,9 +20,7 @@ The segment below has information about the functionality of the main components
 - The Marker Repository was created to assign a biological meaning to these clusters by comparing features, such as chromatin accessibility, to known markers for specific cell types 
 - The markers lists used in the annotation process were taken
   from PanglaoDB, CellMarker 2.0, or hand-curated.
-- Challenges:
-- 1. Selecting an appropriate source of marker lists
-- 2. Transferring genetic information to less annotated organisms using HomoloGene and Ensembl
+- Challenges: 1. Selecting an appropriate source of marker lists & 2. Transferring genetic information to less annotated organisms using HomoloGene and BioMart
 
 #### 1.1 Marker Lists:
 - Marker lists represented as Pandas DataFrames, stored in YAML files as "key.yaml"
