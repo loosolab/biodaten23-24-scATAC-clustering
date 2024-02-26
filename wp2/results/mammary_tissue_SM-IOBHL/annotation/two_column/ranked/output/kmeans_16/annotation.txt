@@ -1,0 +1,16 @@
+1	Ductal cells
+11	Fibroblasts
+6	Myoepithelial cells
+8	Basal cells
+2	Luminal epithelial cells
+12	Interneurons
+15	Luminal epithelial cells
+5	Beta cells
+7	Luminal epithelial cells
+10	Pulmonary alveolar type I cells
+0	Luminal epithelial cells
+4	Myoepithelial cells
+14	Interneurons
+13	Epithelial cells
+3	Myoepithelial cells
+9	Endothelial cells

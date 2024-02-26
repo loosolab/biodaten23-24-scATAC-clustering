@@ -1,0 +1,156 @@
+Myoepithelial cells	14	24	26	1
+Smooth muscle cells	10	50	81	1
+Salivary mucous cells	9	5	7	1
+Fibroblasts	9	94	176	1
+Keratinocytes	8	31	50	1
+Endothelial cells	8	99	194	1
+Myofibroblasts	7	9	9	1
+Hepatic stellate cells	7	29	45	1
+Basal cells	7	30	56	1
+Interneurons	7	116	224	1
+Neurons	7	96	205	1
+Bergmann glia	6	28	41	1
+Astrocytes	6	38	67	1
+Cardiomyocytes	6	59	107	1
+Mesangial cells	6	32	59	1
+Myocytes	6	46	89	1
+Enterocytes	6	66	151	1
+Epithelial cells	6	57	131	1
+Adipocytes	6	50	121	1
+Photoreceptor cells	5	33	53	1
+Schwann cells	5	26	49	1
+B cells	5	51	97	1
+Hepatocytes	5	72	151	1
+B cells naive	5	34	72	1
+Oligodendrocyte progenitor cells	5	14	30	1
+Ependymal cells	5	26	56	1
+Platelets	5	59	131	1
+Germ cells	5	63	143	1
+Podocytes	5	43	98	1
+Peritubular myoid cells	5	11	26	1
+Dendritic cells	5	51	124	1
+Macrophages	5	55	134	1
+Mast cells	5	53	141	1
+Mammary epithelial cells	5	15	43	1
+Granulosa cells	4	11	17	1
+Peri-islet Schwann cells	4	10	16	1
+Pancreatic stellate cells	4	17	29	1
+T helper cells	4	35	63	1
+Epsilon cells	4	25	45	1
+Müller cells	4	28	51	1
+NK cells	4	44	81	1
+Basophils	4	39	73	1
+Loop of Henle cells	4	27	53	1
+Hematopoietic stem cells	4	46	91	1
+Osteoclasts	4	26	52	1
+Enteric neurons	4	34	68	1
+Myoblasts	4	17	34	1
+Retinal ganglion cells	4	35	71	1
+Osteoblasts	4	32	66	1
+T memory cells	4	26	55	1
+Neural stem/precursor cells	4	27	58	1
+T cells	4	44	96	1
+B cells memory	4	31	68	1
+Proximal tubule cells	4	36	79	1
+Mesothelial cells	4	23	54	1
+Pericytes	4	26	62	1
+Olfactory epithelial cells	4	53	131	1
+Sertoli cells	4	26	66	1
+Stromal cells	4	14	36	1
+Endothelial cells (aorta)	4	31	89	1
+Oligodendrocytes	4	32	92	1
+Hepatoblasts	3	12	18	1
+Thymocytes	3	14	22	1
+Tanycytes	3	16	26	1
+Taste receptor cells	3	12	20	1
+Gamma (PP) cells	3	17	30	1
+Meningeal cells	3	10	18	1
+Delta cells	3	18	34	1
+Immature neurons	3	20	38	1
+Pluripotent stem cells	3	10	20	1
+Distal tubule cells	3	21	42	1
+Neuroblasts	3	25	51	1
+Enteroendocrine cells	3	24	49	1
+Enteric glia cells	3	8	17	1
+Megakaryocytes	3	23	49	1
+Erythroblasts	3	12	26	1
+Purkinje neurons	3	28	61	1
+Pulmonary alveolar type I cells	3	16	35	1
+Leydig cells	3	26	58	1
+Trigeminal neurons	3	21	47	1
+Beta cells	3	23	52	1
+Alpha cells	3	21	48	1
+Cajal-Retzius cells	3	37	85	1
+Pyramidal cells	3	16	37	1
+Melanocytes	3	19	44	1
+Acinar cells	3	22	51	1
+Satellite cells	3	18	44	1
+Plasma cells	3	35	86	1
+Plasmacytoid dendritic cells	3	22	56	1
+Pulmonary alveolar type II cells	3	16	42	1
+Microglia	3	27	72	1
+Erythroid-like and erythroid precursor cells	3	25	72	1
+Monocytes	3	35	103	1
+Neutrophils	3	22	71	1
+Embryonic stem cells	3	25	84	1
+T cytotoxic cells	2	6	8	1
+Motor neurons	2	8	13	1
+Pinealocytes	2	16	26	1
+Red pulp macrophages	2	7	12	1
+Radial glia cells	2	8	14	1
+Trophoblast cells	2	18	33	1
+Satellite glial cells	2	13	24	1
+T follicular helper cells	2	7	13	1
+Tuft cells	2	17	33	1
+Decidual cells	2	5	10	1
+Dopaminergic neurons	2	11	22	1
+Gastric chief cells	2	5	10	1
+Chromaffin cells	2	13	27	1
+Intercalated cells	2	12	25	1
+Ionocytes	2	5	11	1
+Crypt cells	2	8	18	1
+Eosinophils	2	13	30	1
+Paneth cells	2	19	44	1
+Alveolar macrophages	2	10	24	1
+Kupffer cells	2	19	46	1
+Pancreatic progenitor cells	2	7	17	1
+T regulatory cells	2	9	22	1
+Parietal cells	2	6	15	1
+Choroid plexus cells	2	9	23	1
+Cardiac stem and precursor cells	2	7	18	1
+Gamma delta T cells	2	25	65	1
+Goblet cells	2	14	37	1
+Principal cells	2	17	45	1
+Myeloid-derived suppressor cells	2	6	16	1
+Adipocyte progenitor cells	2	9	24	1
+Microfold cells	2	11	30	1
+Chondrocytes	2	19	52	1
+Ductal cells	2	16	44	1
+Epiblast cells	2	6	17	1
+Neuroendocrine cells	2	9	26	1
+Glomus cells	2	10	29	1
+Anterior pituitary gland cells	2	11	34	1
+Luteal cells	2	9	29	1
+Cholangiocytes	2	13	43	1
+Luminal epithelial cells	2	14	49	1
+Natural killer T cells	2	7	26	1
+Glutaminergic neurons	1	6	10	1
+Spermatozoa	1	5	9	1
+Ciliated cells	1	8	15	1
+Retinal progenitor cells	1	7	14	1
+GABAergic neurons	1	7	15	1
+Urothelial cells	1	5	11	1
+Noradrenergic neurons	1	4	9	1
+Serotonergic neurons	1	4	9	1
+Spermatocytes	1	9	22	1
+Foveolar cells	1	9	23	1
+Enterochromaffin cells	1	5	13	1
+Merkel cells	1	6	16	1
+Langerhans cells	1	11	30	1
+Nuocytes	1	5	14	1
+Endothelial cells (blood brain barrier)	1	6	18	1
+Undefined placental cells	1	4	13	1
+Airway goblet cells	1	7	25	1
+Sebocytes	1	7	26	1
+Clara cells	1	5	23	1
+Transient cells	0	4	22	1

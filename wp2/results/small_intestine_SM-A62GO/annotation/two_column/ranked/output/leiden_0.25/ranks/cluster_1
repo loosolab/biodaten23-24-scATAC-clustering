@@ -1,0 +1,146 @@
+Enterocytes	30	111	151	1
+Hepatocytes	18	90	151	1
+Proximal tubule cells	12	38	79	1
+Epithelial cells	12	62	131	1
+Ductal cells	9	25	44	1
+Hepatoblasts	8	14	18	1
+Acinar cells	8	28	51	1
+Cholangiocytes	8	23	43	1
+Germ cells	8	63	143	1
+Keratinocytes	7	25	50	1
+Luminal epithelial cells	7	20	49	1
+Erythroid-like and erythroid precursor cells	7	29	72	1
+Mast cells	7	51	141	1
+Neurons	7	70	205	1
+Choroid plexus cells	6	11	23	1
+Basal cells	6	25	56	1
+Mammary epithelial cells	6	19	43	1
+Cardiomyocytes	6	47	107	1
+Olfactory epithelial cells	6	54	131	1
+Adipocytes	6	41	121	1
+Podocytes	6	32	98	1
+Endothelial cells	6	57	194	1
+Interneurons	6	65	224	1
+Follicular cells	5	8	15	1
+Pulmonary alveolar type II cells	5	17	42	1
+Astrocytes	5	27	67	1
+Oligodendrocytes	5	37	92	1
+Principal cells	5	18	45	1
+Schwann cells	5	19	49	1
+Loop of Henle cells	5	20	53	1
+Plasma cells	5	32	86	1
+Basophils	5	26	73	1
+Macrophages	5	37	134	1
+Parietal cells	4	9	15	1
+Foveolar cells	4	13	23	1
+Neuroendocrine cells	4	13	26	1
+Gastric chief cells	4	5	10	1
+Microfold cells	4	15	30	1
+Distal tubule cells	4	20	42	1
+Photoreceptor cells	4	24	53	1
+Serotonergic neurons	4	4	9	1
+Merkel cells	4	7	16	1
+Oligodendrocyte progenitor cells	4	13	30	1
+Peritubular myoid cells	4	11	26	1
+Ependymal cells	4	23	56	1
+Tuft cells	4	13	33	1
+Paneth cells	4	17	44	1
+Embryonic stem cells	4	32	84	1
+Goblet cells	4	14	37	1
+Alpha cells	4	18	48	1
+Gamma (PP) cells	4	11	30	1
+Melanocytes	4	16	44	1
+Neural stem/precursor cells	4	21	58	1
+B cells naive	4	26	72	1
+Sertoli cells	4	23	66	1
+Myocytes	4	31	89	1
+Megakaryocytes	4	17	49	1
+Transient cells	4	7	22	1
+Luteal cells	4	9	29	1
+Hematopoietic stem cells	4	26	91	1
+Monocytes	4	28	103	1
+Cajal-Retzius cells	4	23	85	1
+Platelets	4	35	131	1
+Dendritic cells	4	31	124	1
+Fibroblasts	4	42	176	1
+Cholinergic neurons	3	6	7	1
+Myoblasts	3	15	34	1
+Enteric glia cells	3	7	17	1
+Leydig cells	3	22	58	1
+Bergmann glia	3	15	41	1
+Trigeminal neurons	3	17	47	1
+Osteoclasts	3	18	52	1
+Purkinje neurons	3	21	61	1
+Satellite cells	3	15	44	1
+Langerhans cells	3	10	30	1
+Enteroendocrine cells	3	16	49	1
+Neutrophils	3	23	71	1
+Retinal ganglion cells	3	23	71	1
+Plasmacytoid dendritic cells	3	18	56	1
+Dopaminergic neurons	3	7	22	1
+Epsilon cells	3	14	45	1
+B cells memory	3	21	68	1
+Sebocytes	3	8	26	1
+Endothelial cells (aorta)	3	27	89	1
+Alveolar macrophages	3	7	24	1
+NK cells	3	21	81	1
+Osteoblasts	3	15	66	1
+B cells	3	22	97	1
+Kupffer cells	3	10	46	1
+Pericytes	3	13	62	1
+Pulmonary alveolar type I cells	3	7	35	1
+T cells	3	18	96	1
+Urothelial cells	2	7	11	1
+Undefined placental cells	2	8	13	1
+Noradrenergic neurons	2	4	9	1
+Endothelial cells (blood brain barrier)	2	8	18	1
+Pinealocytes	2	11	26	1
+Pancreatic progenitor cells	2	7	17	1
+Spermatocytes	2	9	22	1
+Glutaminergic neurons	2	4	10	1
+Pluripotent stem cells	2	8	20	1
+Erythroblasts	2	10	26	1
+Myeloid-derived suppressor cells	2	6	16	1
+Chromaffin cells	2	10	27	1
+Ionocytes	2	4	11	1
+Retinal progenitor cells	2	5	14	1
+Granulosa cells	2	6	17	1
+Myoepithelial cells	2	9	26	1
+Red pulp macrophages	2	4	12	1
+Satellite glial cells	2	8	24	1
+Anterior pituitary gland cells	2	11	34	1
+Enteric neurons	2	22	68	1
+Intercalated cells	2	8	25	1
+Immature neurons	2	12	38	1
+Glomus cells	2	9	29	1
+Epiblast cells	2	5	17	1
+Chondrocytes	2	15	52	1
+Beta cells	2	15	52	1
+Crypt cells	2	5	18	1
+Eosinophils	2	8	30	1
+Müller cells	2	13	51	1
+Peri-islet Schwann cells	2	4	16	1
+Airway goblet cells	2	6	25	1
+Neuroblasts	2	12	51	1
+Smooth muscle cells	2	19	81	1
+Natural killer T cells	2	6	26	1
+T helper cells	2	14	63	1
+Microglia	2	16	72	1
+Mesothelial cells	2	12	54	1
+Hepatic stellate cells	2	10	45	1
+Delta cells	2	7	34	1
+Mesangial cells	2	12	59	1
+Nuocytes	1	5	14	1
+Clara cells	1	7	23	1
+Taste receptor cells	1	6	20	1
+Adipocyte progenitor cells	1	6	24	1
+Pyramidal cells	1	9	37	1
+Cardiac stem and precursor cells	1	4	18	1
+Gamma delta T cells	1	14	65	1
+Trophoblast cells	1	7	33	1
+Thymocytes	1	4	22	1
+T regulatory cells	1	4	22	1
+Stromal cells	1	6	36	1
+T memory cells	1	6	55	1
+Myofibroblasts	0	4	9	1
+Tanycytes	0	6	26	1

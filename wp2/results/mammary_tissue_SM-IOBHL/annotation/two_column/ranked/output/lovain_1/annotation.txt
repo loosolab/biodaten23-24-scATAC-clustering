@@ -1,0 +1,10 @@
+1	Hepatocytes
+6	Myoepithelial cells
+8	Endothelial cells
+2	Myoepithelial cells
+5	Fibroblasts
+7	Basal cells
+0	Luminal epithelial cells
+4	Epithelial cells
+3	Ductal cells
+9	Myoepithelial cells

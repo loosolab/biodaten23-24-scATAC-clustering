@@ -1,0 +1,7 @@
+5	Alpha cells
+2	Fibroblasts
+6	Endothelial cells
+1	Ductal cells
+3	Macrophages
+4	T cells
+0	Acinar cells

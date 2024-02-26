@@ -1,0 +1,13 @@
+0	Adipocytes
+11	Luminal epithelial cells
+7	Ductal cells
+3	Luminal epithelial cells
+9	Luminal epithelial cells
+12	Basal cells
+4	Endothelial cells
+6	Epithelial cells
+10	Beta cells
+1	Fibroblasts
+5	Myoepithelial cells
+8	Hepatocytes
+2	Myoepithelial cells

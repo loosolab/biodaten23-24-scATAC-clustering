@@ -1,0 +1,13 @@
+10	Endothelial cells
+1	Enterocytes
+6	Enterocytes
+2	Fibroblasts
+8	Interneurons
+5	Goblet cells
+7	Macrophages
+0	Fibroblasts
+11	T memory cells
+4	T cells
+9	Plasma cells
+12	Enterocytes
+3	Enterocytes

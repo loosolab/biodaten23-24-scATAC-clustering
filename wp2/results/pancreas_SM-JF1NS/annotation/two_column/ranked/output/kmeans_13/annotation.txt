@@ -1,0 +1,13 @@
+0	Ductal cells
+7	Fibroblasts
+3	Acinar cells
+9	Acinar cells
+10	Alpha cells
+4	Acinar cells
+12	Acinar cells
+6	Macrophages
+1	T cells
+11	Endothelial cells
+5	Acinar cells
+8	Enterocytes
+2	Acinar cells

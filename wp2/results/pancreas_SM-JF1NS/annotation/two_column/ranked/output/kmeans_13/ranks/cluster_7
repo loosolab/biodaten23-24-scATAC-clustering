@@ -1,0 +1,145 @@
+Fibroblasts	23	117	176	1
+Pancreatic stellate cells	17	25	29	1
+Hepatic stellate cells	16	32	45	1
+Adipocytes	13	63	121	1
+Endothelial cells	13	95	194	1
+Pericytes	12	39	62	1
+Mesangial cells	11	38	59	1
+Smooth muscle cells	10	41	81	1
+Stromal cells	9	22	36	1
+Vascular smooth muscle cells	8	6	6	1
+Platelets	8	55	131	1
+Mesothelial cells	7	29	54	1
+Müller cells	7	24	51	1
+Microglia	7	30	72	1
+Mast cells	7	55	141	1
+Podocytes	7	37	98	1
+Interneurons	7	83	224	1
+Dendritic cells	7	45	124	1
+Neurons	7	74	205	1
+Myocytes	7	28	89	1
+Myofibroblasts	6	6	9	1
+Adipocyte progenitor cells	6	15	24	1
+Tanycytes	6	16	26	1
+Meningeal cells	6	11	18	1
+T helper cells	6	35	63	1
+Osteoblasts	6	33	66	1
+Glomus cells	6	14	29	1
+Hematopoietic stem cells	6	40	91	1
+Astrocytes	6	29	67	1
+Endothelial cells (aorta)	6	38	89	1
+Chondrocytes	6	22	52	1
+Leydig cells	6	24	58	1
+Granulosa cells	6	7	17	1
+Myoblasts	6	14	34	1
+Schwann cells	6	20	49	1
+Oligodendrocyte progenitor cells	6	11	30	1
+Macrophages	6	48	134	1
+Monocytes	6	35	103	1
+Germ cells	6	48	143	1
+T regulatory cells	5	15	22	1
+Peritubular myoid cells	5	15	26	1
+Cardiac stem and precursor cells	5	10	18	1
+Satellite glial cells	5	13	24	1
+Myoepithelial cells	5	14	26	1
+Peri-islet Schwann cells	5	8	16	1
+Pulmonary alveolar type I cells	5	15	35	1
+Epsilon cells	5	19	45	1
+Photoreceptor cells	5	21	53	1
+Cardiomyocytes	5	36	107	1
+Chromaffin cells	5	9	27	1
+T cells	5	30	96	1
+Enteric neurons	5	20	68	1
+Enterocytes	5	44	151	1
+Basal cells	5	16	56	1
+Epithelial cells	5	36	131	1
+Hepatocytes	5	40	151	1
+Neuroendocrine cells	4	15	26	1
+Gamma (PP) cells	4	14	30	1
+Natural killer T cells	4	11	26	1
+Luteal cells	4	12	29	1
+Retinal ganglion cells	4	29	71	1
+Pyramidal cells	4	15	37	1
+Osteoclasts	4	21	52	1
+Loop of Henle cells	4	21	53	1
+Embryonic stem cells	4	33	84	1
+Proximal tubule cells	4	31	79	1
+Melanocytes	4	17	44	1
+Basophils	4	26	73	1
+Cajal-Retzius cells	4	30	85	1
+Kupffer cells	4	16	46	1
+Purkinje neurons	4	21	61	1
+Tuft cells	4	11	33	1
+Ependymal cells	4	18	56	1
+Satellite cells	4	14	44	1
+Neural stem/precursor cells	4	18	58	1
+Motor neurons	4	4	13	1
+Beta cells	4	16	52	1
+Neutrophils	4	21	71	1
+Erythroid-like and erythroid precursor cells	4	19	72	1
+Oligodendrocytes	4	22	92	1
+Ciliated cells	3	9	15	1
+Red pulp macrophages	3	7	12	1
+Radial glia cells	3	8	14	1
+Nuocytes	3	7	14	1
+GABAergic neurons	3	7	15	1
+Enteric glia cells	3	7	17	1
+Trigeminal neurons	3	18	47	1
+Delta cells	3	13	34	1
+Megakaryocytes	3	18	49	1
+Microfold cells	3	11	30	1
+Bergmann glia	3	15	41	1
+Enteroendocrine cells	3	17	49	1
+Pinealocytes	3	9	26	1
+Plasmacytoid dendritic cells	3	19	56	1
+B cells memory	3	23	68	1
+Alpha cells	3	16	48	1
+Crypt cells	3	6	18	1
+Mammary epithelial cells	3	14	43	1
+Keratinocytes	3	16	50	1
+Sertoli cells	3	21	66	1
+Immature neurons	3	12	38	1
+Erythroblasts	3	8	26	1
+B cells naive	3	22	72	1
+Trophoblast cells	3	10	33	1
+Neuroblasts	3	15	51	1
+Plasma cells	3	24	86	1
+Olfactory epithelial cells	3	36	131	1
+NK cells	3	22	81	1
+Luminal epithelial cells	3	13	49	1
+B cells	3	23	97	1
+T follicular helper cells	2	6	13	1
+Ionocytes	2	5	11	1
+Spermatozoa	2	4	9	1
+Intercalated cells	2	11	25	1
+Sebocytes	2	11	26	1
+Pancreatic progenitor cells	2	7	17	1
+Thymocytes	2	9	22	1
+Principal cells	2	16	45	1
+Anterior pituitary gland cells	2	12	34	1
+Distal tubule cells	2	13	42	1
+Enterochromaffin cells	2	4	13	1
+Choroid plexus cells	2	7	23	1
+Clara cells	2	7	23	1
+Endothelial cells (blood brain barrier)	2	5	18	1
+Langerhans cells	2	8	30	1
+Pulmonary alveolar type II cells	2	10	42	1
+Ductal cells	2	9	44	1
+Gamma delta T cells	2	12	65	1
+Transient cells	2	4	22	1
+T memory cells	2	9	55	1
+Taste receptor cells	1	8	20	1
+Eosinophils	1	11	30	1
+Urothelial cells	1	4	11	1
+Alveolar macrophages	1	8	24	1
+Undefined placental cells	1	4	13	1
+Pluripotent stem cells	1	6	20	1
+Epiblast cells	1	5	17	1
+Retinal progenitor cells	1	4	14	1
+Spermatocytes	1	6	22	1
+Myeloid-derived suppressor cells	1	4	16	1
+Goblet cells	1	8	37	1
+Paneth cells	1	9	44	1
+Cholangiocytes	1	8	43	1
+Foveolar cells	1	4	23	1
+Acinar cells	0	4	51	1

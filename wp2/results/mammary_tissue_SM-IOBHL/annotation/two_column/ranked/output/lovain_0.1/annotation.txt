@@ -1,0 +1,4 @@
+0	Luminal epithelial cells
+3	Fibroblasts
+1	Epithelial cells
+2	Myoepithelial cells

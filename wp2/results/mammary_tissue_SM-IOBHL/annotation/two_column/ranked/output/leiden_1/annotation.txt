@@ -1,0 +1,11 @@
+9	Endothelial cells
+3	Luminal epithelial cells
+4	Luminal epithelial cells
+0	Hepatocytes
+10	Myoepithelial cells
+7	Myoepithelial cells
+5	Cardiomyocytes
+2	Epithelial cells
+8	Basal cells
+6	Fibroblasts
+1	Myoepithelial cells

@@ -1,0 +1,16 @@
+4	Macrophages
+13	Acinar cells
+14	Endothelial cells
+3	Acinar cells
+9	Acinar cells
+7	Acinar cells
+10	Acinar cells
+0	Alpha cells
+8	Acinar cells
+2	Ductal cells
+15	Acinar cells
+12	Acinar cells
+5	Fibroblasts
+1	Cardiomyocytes
+11	Acinar cells
+6	T cells
