@@ -1,0 +1,7 @@
+4	Fibroblasts
+3	Mast cells
+0	Interneurons
+2	Enterocytes
+5	Macrophages
+1	Neurons
+6	Endothelial cells

@@ -1,0 +1,4 @@
+2	Macrophages
+1	Fibroblasts
+3	Endothelial cells
+0	Neurons

@@ -1,0 +1,9 @@
+4	Pulmonary alveolar type I cells
+3	Interneurons
+7	NK cells
+0	Macrophages
+2	Macrophages
+8	Fibroblasts
+5	Proximal tubule cells
+1	Macrophages
+6	Endothelial cells

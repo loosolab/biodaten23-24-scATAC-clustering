@@ -1,0 +1,11 @@
+9	Interneurons
+3	Smooth muscle cells
+4	Neurons
+0	Crypt cells
+7	Interneurons
+5	Neurons
+2	Hepatocytes
+8	Endothelial cells
+6	Hepatocytes
+10	Endothelial cells
+1	Hepatocytes

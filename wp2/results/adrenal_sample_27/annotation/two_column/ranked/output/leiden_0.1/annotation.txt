@@ -1,0 +1,4 @@
+1	Hepatocytes
+2	Interneurons
+0	Neurons
+3	Endothelial cells

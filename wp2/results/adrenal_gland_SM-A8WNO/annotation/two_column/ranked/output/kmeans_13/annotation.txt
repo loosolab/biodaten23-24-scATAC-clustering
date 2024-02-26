@@ -1,0 +1,13 @@
+9	Neurons
+3	Macrophages
+11	Interneurons
+4	Endothelial cells
+0	Enterocytes
+7	Enterocytes
+12	Enterocytes
+10	Macrophages
+5	Fibroblasts
+2	Interneurons
+8	Enterocytes
+6	Neurons
+1	Mast cells

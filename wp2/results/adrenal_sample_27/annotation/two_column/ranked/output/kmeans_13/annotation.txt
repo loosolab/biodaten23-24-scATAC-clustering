@@ -1,0 +1,13 @@
+1	Hepatocytes
+11	Gastric chief cells
+6	Fibroblasts
+8	Sertoli cells
+2	Endothelial cells
+12	Epithelial cells
+5	Endothelial cells
+7	T helper cells
+0	Interneurons
+10	Interneurons
+4	Leydig cells
+3	Neurons
+9	Hepatocytes

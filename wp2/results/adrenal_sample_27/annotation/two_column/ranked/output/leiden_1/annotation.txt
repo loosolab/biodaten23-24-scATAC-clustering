@@ -1,0 +1,11 @@
+8	Interneurons
+2	Neurons
+5	Neurons
+10	Endothelial cells
+1	Hepatocytes
+6	Enterocytes
+4	Dendritic cells
+3	Hepatocytes
+9	Endothelial cells
+7	Interneurons
+0	Radial glia cells
