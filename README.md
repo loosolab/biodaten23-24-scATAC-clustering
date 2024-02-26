@@ -10,12 +10,20 @@
     the annotation of clusters
   </p>
 
-  Wichtig dabei ist eine gute Zusammenarbeit innerhalb der Gruppen, aber auch zwischen den Gruppen.
+  Good cooperation within the groups, but also between the groups, is important.
+
+<p align="center">
+  <img src="images/wp_distribution.png" alt="drawing" width="1000"/>
+</p>
 
 ## Arbeitsgruppen
-### WP1
-- Vorbereiten und Clustern der Daten
-- Clusterevaluation
+This project focuses on analysing scATAC-Seq data using clustering algorithms and developing the Residual Average Gini Index (RAGI) metric. The aim is to explore patterns in chromatin accessibility at the single cell level and to determine clusters of different cell types, that can then be annotated.
+
+### [WP1](wp1/)
+- preprocessing
+- dimension reduction
+- clustering
+- export for WP2
 
 ### WP2
 - ...
