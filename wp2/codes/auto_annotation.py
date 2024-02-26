@@ -1,3 +1,6 @@
+# The following code is the Python script used to annotate the clusters obtained from the scATAc-seq data analysis
+
+
 import markerrepo.marker_repo as mr
 import markerrepo.wrappers as wrap
 import markerrepo.annotation as annot
@@ -18,10 +21,11 @@ try:
 except ModuleNotFoundError:
     warnings.warn("Please install the latest sctoolbox version. Some functionality may not be available.", RuntimeWarning)
 
-
+# This function returns a list of the clustering methods used from the AnnData object
 def get_clustering_column_list(adata):
     return list(adata.uns["clusters"].keys())
 
+# The user must validate the settings before starting the annotation process, such as file paths, AnnData object columns, and specified organism
 def auto_validate_settings(settings=None, repo_path=None, adata=None, organism=None, rank_genes_column=None, genes_column=None, 
                       clustering_column=None, ensembl=None, col_to_search=None, search_terms=None, column_specific_terms=None):
     """
@@ -141,7 +145,7 @@ def auto_validate_settings(settings=None, repo_path=None, adata=None, organism=N
         formatted_var_columns = "\n  - " + "\n  - ".join(adata.var.columns)
         errors.append(f"Invalid genes_column {genes_column}.\nAvailable columns in adata.var:{formatted_var_columns}\n")
 
-    # --- change --- #
+    # This condition checks whether the methods in the clustering_column are given as a list or not
     if isinstance(clustering_column, list):
         for column in clustering_column:
             if column and column not in adata.obs.columns:
@@ -246,6 +250,7 @@ def auto_show_tables(annotation_dir=None, n=5, clustering_column="leiden_0.1", s
 
     return cluster_dict
 
+# The parameter "SCSA" is set to "False" since we are missing the library
 def run_annotation_new(adata, marker_repo=True, SCSA=False, marker_lists=None, mr_obs="mr", scsa_obs="scsa", 
                    rank_genes_column=None, clustering_column=None, reference_obs=None, keep_all=False, 
                    verbose=False, show_ct_tables=False, show_plots=False, show_comparison=False, ignore_overwrite=True,
