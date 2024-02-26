@@ -17,7 +17,7 @@ The segment below has information about the functionality of the main components
 3. Evaluate
 
 #### 1. Marker Repository
-- The Marker Repository was created to assign a biological meaning to these clusters by comparing features, such as chromatin accessibility, to known markers for specific cell types. 
+- The Marker Repository was created to assign a biological meaning to these clusters by comparing features, such as chromatin accessibility, to known markers for specific cell types 
 - The markers lists used in the annotation process were taken
   from PanglaoDB, CellMarker 2.0, or hand-curated.
 - Challenges:
@@ -57,7 +57,7 @@ The segment below has information about the functionality of the main components
 #### 3. Evaluate
 - Ontology labels were used as reference data to evaluate the accuracy of the annotation produced by the MarkerRepo
 - Homology-based annotation: evaluate the effects on the annotation when using translated human markers vs. using human markers
-- Automate the annotation process as much as possible, the functions are described in the files: auto_annotation.py and auto_annotation_notebook.ipynb) (please see codes section)
+- Automate the annotation process as much as possible, the functions are described in the files: auto_annotation.py and auto_annotation_notebook.ipynb (please see codes section)
 
 
 
