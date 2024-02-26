@@ -1,6 +1,6 @@
 # Links and materials
-The following is a list of scientific publications, technical notes, and a university thesis that were used as sources of literature to research the most important concepts related to the project.
-The list also includes the paper from which the material with the zebrafish marker Excel files was taken.
+The following is a list of scientific publications, technical notes, and a university thesis that were used as main sources of literature to research the most important concepts related to the project. The list also includes the paper from which the material with the zebrafish marker Excel files was taken.
+We recommend reading the publications in case the person is not familiar with the subject.
 
 ## Technical tool
 
