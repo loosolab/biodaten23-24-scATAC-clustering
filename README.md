@@ -14,6 +14,7 @@
 
 <p align="center">
   <img src="images/wp_distribution.png" alt="drawing" width="1000"/>
+  Since only a limited number of students applied for this course, WP2 is cancelled and WP3 is now WP2
 </p>
 
 ## Arbeitsgruppen
