@@ -1,0 +1,3 @@
+0	Beta cells
+2	Interneurons
+1	Alpha cells

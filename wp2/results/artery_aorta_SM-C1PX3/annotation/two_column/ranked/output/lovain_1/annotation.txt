@@ -1,0 +1,9 @@
+0	Adipocyte progenitor cells
+7	Endothelial cells
+3	Fibroblasts
+4	Fibroblasts
+6	Fibroblasts
+1	Smooth muscle cells
+5	Smooth muscle cells
+8	Macrophages
+2	Smooth muscle cells

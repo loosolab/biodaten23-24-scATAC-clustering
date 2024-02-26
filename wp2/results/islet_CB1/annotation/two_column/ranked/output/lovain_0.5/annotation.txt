@@ -1,0 +1,6 @@
+1	Beta cells
+2	Beta cells
+5	Neurons
+0	Alpha cells
+4	Delta cells
+3	Interneurons

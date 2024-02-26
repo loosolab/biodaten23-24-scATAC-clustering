@@ -1,0 +1,13 @@
+11	Macrophages
+0	Monocytes
+7	Microglia
+12	Macrophages
+3	Macrophages
+9	Interneurons
+4	Monocytes
+6	Endothelial cells
+10	T cells
+1	Fibroblasts
+5	Dendritic cells
+8	Microglia
+2	Pulmonary alveolar type I cells

@@ -1,0 +1,146 @@
+Macrophages	13	100	134	1
+Monocytes	10	75	103	1
+Dendritic cells	10	76	124	1
+Microglia	8	50	72	1
+Neutrophils	7	47	71	1
+Kupffer cells	6	32	46	1
+B cells naive	6	44	72	1
+B cells	6	58	97	1
+Platelets	6	71	131	1
+Alveolar macrophages	5	18	24	1
+Langerhans cells	5	19	30	1
+B cells memory	5	39	68	1
+Plasmacytoid dendritic cells	5	32	56	1
+Myeloid-derived suppressor cells	4	13	16	1
+Eosinophils	4	21	30	1
+Thymocytes	4	14	22	1
+T memory cells	4	29	55	1
+Plasma cells	4	45	86	1
+NK cells	4	39	81	1
+Hematopoietic stem cells	4	43	91	1
+T helper cells	4	28	63	1
+Basophils	4	31	73	1
+T cells	4	40	96	1
+Mast cells	4	51	141	1
+Fibroblasts	4	60	176	1
+Endothelial cells	4	66	194	1
+T regulatory cells	3	12	22	1
+T follicular helper cells	3	7	13	1
+Satellite glial cells	3	12	24	1
+Osteoclasts	3	25	52	1
+Pulmonary alveolar type II cells	3	20	42	1
+Megakaryocytes	3	23	49	1
+Paneth cells	3	20	44	1
+Oligodendrocytes	3	36	92	1
+Pyramidal cells	3	14	37	1
+Hepatocytes	3	56	151	1
+Adipocytes	3	42	121	1
+Tuft cells	3	11	33	1
+Epithelial cells	3	41	131	1
+Enterocytes	3	43	151	1
+Endothelial cells (aorta)	3	24	89	1
+Interneurons	3	51	224	1
+Neurons	3	45	205	1
+Osteoclast precursor cells	2	7	8	1
+Urothelial cells	2	7	11	1
+T cytotoxic cells	2	5	8	1
+Pluripotent stem cells	2	11	20	1
+Sebocytes	2	14	26	1
+Natural killer T cells	2	13	26	1
+Red pulp macrophages	2	6	12	1
+Reticulocytes	2	4	8	1
+Intercalated cells	2	12	25	1
+Anterior pituitary gland cells	2	15	34	1
+Clara cells	2	10	23	1
+Distal tubule cells	2	18	42	1
+Pinealocytes	2	11	26	1
+Erythroid-like and erythroid precursor cells	2	30	72	1
+Trophoblast cells	2	13	33	1
+Cholangiocytes	2	16	43	1
+Astrocytes	2	24	67	1
+Epsilon cells	2	16	45	1
+Müller cells	2	18	51	1
+Myoblasts	2	12	34	1
+Taste receptor cells	2	7	20	1
+Osteoblasts	2	23	66	1
+Chondrocytes	2	18	52	1
+Pericytes	2	21	62	1
+Acinar cells	2	17	51	1
+Myocytes	2	29	89	1
+Embryonic stem cells	2	27	84	1
+Loop of Henle cells	2	17	53	1
+Sertoli cells	2	21	66	1
+Melanocytes	2	14	44	1
+Satellite cells	2	14	44	1
+Bergmann glia	2	13	41	1
+Neural stem/precursor cells	2	18	58	1
+Luminal epithelial cells	2	15	49	1
+Photoreceptor cells	2	16	53	1
+Microfold cells	2	9	30	1
+Proximal tubule cells	2	22	79	1
+Cardiomyocytes	2	28	107	1
+Germ cells	2	36	143	1
+Stromal cells	2	9	36	1
+Purkinje neurons	2	15	61	1
+Olfactory epithelial cells	2	31	131	1
+Podocytes	2	21	98	1
+Leydig cells	2	12	58	1
+Cajal-Retzius cells	2	15	85	1
+Spermatozoa	1	6	9	1
+Undefined placental cells	1	6	13	1
+Parathyroid chief cells	1	4	9	1
+Airway goblet cells	1	11	25	1
+Epiblast cells	1	7	17	1
+Pancreatic progenitor cells	1	7	17	1
+Enteric glia cells	1	7	17	1
+Transient cells	1	9	22	1
+Glutaminergic neurons	1	4	10	1
+Ciliated cells	1	6	15	1
+Erythroblasts	1	10	26	1
+Gamma delta T cells	1	23	65	1
+Choroid plexus cells	1	8	23	1
+Crypt cells	1	6	18	1
+Endothelial cells (blood brain barrier)	1	6	18	1
+Hepatoblasts	1	6	18	1
+Enteroendocrine cells	1	16	49	1
+Dopaminergic neurons	1	7	22	1
+Immature neurons	1	12	38	1
+Pulmonary alveolar type I cells	1	11	35	1
+Hepatic stellate cells	1	14	45	1
+Myoepithelial cells	1	8	26	1
+Enterochromaffin cells	1	4	13	1
+Goblet cells	1	11	37	1
+Delta cells	1	10	34	1
+Mesangial cells	1	17	59	1
+Nuocytes	1	4	14	1
+Retinal progenitor cells	1	4	14	1
+Pancreatic stellate cells	1	8	29	1
+Ductal cells	1	12	44	1
+Peritubular myoid cells	1	7	26	1
+Neuroendocrine cells	1	7	26	1
+Basal cells	1	15	56	1
+GABAergic neurons	1	4	15	1
+Parietal cells	1	4	15	1
+Neuroblasts	1	13	51	1
+Adipocyte progenitor cells	1	6	24	1
+Beta cells	1	13	52	1
+Luteal cells	1	7	29	1
+Mesothelial cells	1	13	54	1
+Enteric neurons	1	16	68	1
+Ependymal cells	1	13	56	1
+Alpha cells	1	11	48	1
+Keratinocytes	1	11	50	1
+Retinal ganglion cells	1	15	71	1
+Mammary epithelial cells	1	9	43	1
+Glomus cells	1	6	29	1
+Oligodendrocyte progenitor cells	1	6	30	1
+Gamma (PP) cells	1	6	30	1
+Chromaffin cells	1	5	27	1
+Smooth muscle cells	1	15	81	1
+Schwann cells	1	9	49	1
+Trigeminal neurons	1	8	47	1
+Tanycytes	0	8	26	1
+Cardiac stem and precursor cells	0	5	18	1
+Spermatocytes	0	5	22	1
+Foveolar cells	0	4	23	1
+Principal cells	0	4	45	1

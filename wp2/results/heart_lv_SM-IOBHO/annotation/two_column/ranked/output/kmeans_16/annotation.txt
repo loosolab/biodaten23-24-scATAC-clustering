@@ -1,0 +1,16 @@
+4	Mesangial cells
+3	Interneurons
+9	Interneurons
+10	Neurons
+14	Neurons
+7	Olfactory epithelial cells
+0	Endothelial cells
+13	Interneurons
+11	Fibroblasts
+8	Foveolar cells
+2	Macrophages
+5	Neurons
+12	Trigeminal neurons
+1	Sertoli cells
+6	Fibroblasts
+15	Interneurons

@@ -1,0 +1,90 @@
+Microfold cells	2	10	30	1
+Olfactory epithelial cells	2	29	131	1
+Erythroid-like and erythroid precursor cells	2	15	72	1
+Macrophages	2	25	134	1
+Microglia	2	11	72	1
+Pyramidal cells	1	11	37	1
+Neural stem/precursor cells	1	16	58	1
+Ciliated cells	1	4	15	1
+Adipocyte progenitor cells	1	6	24	1
+Myoblasts	1	8	34	1
+Ependymal cells	1	13	56	1
+Plasmacytoid dendritic cells	1	12	56	1
+Tuft cells	1	7	33	1
+Cajal-Retzius cells	1	18	85	1
+Satellite glial cells	1	5	24	1
+Melanocytes	1	9	44	1
+Kupffer cells	1	9	46	1
+Natural killer T cells	1	5	26	1
+Erythroblasts	1	5	26	1
+Dendritic cells	1	23	124	1
+Thymocytes	1	4	22	1
+Transient cells	1	4	22	1
+Enteric neurons	1	12	68	1
+Osteoclasts	1	9	52	1
+Luteal cells	1	5	29	1
+Neurons	1	35	205	1
+Trigeminal neurons	1	8	47	1
+Retinal ganglion cells	1	12	71	1
+Luminal epithelial cells	1	8	49	1
+Oligodendrocytes	1	15	92	1
+T cells	1	15	96	1
+Monocytes	1	16	103	1
+B cells	1	15	97	1
+Platelets	1	20	131	1
+Basophils	1	11	73	1
+Astrocytes	1	10	67	1
+Basal cells	1	8	56	1
+Pulmonary alveolar type I cells	1	5	35	1
+Mammary epithelial cells	1	6	43	1
+Glomus cells	1	4	29	1
+Sertoli cells	1	9	66	1
+Fibroblasts	1	24	176	1
+Satellite cells	1	6	44	1
+Endothelial cells (aorta)	1	12	89	1
+Loop of Henle cells	1	7	53	1
+Purkinje neurons	1	8	61	1
+Interneurons	1	29	224	1
+T memory cells	1	7	55	1
+Bergmann glia	1	5	41	1
+Hematopoietic stem cells	1	11	91	1
+Hepatocytes	1	18	151	1
+Endothelial cells	1	23	194	1
+Plasma cells	1	10	86	1
+Chondrocytes	1	6	52	1
+Paneth cells	1	5	44	1
+Smooth muscle cells	1	9	81	1
+Adipocytes	1	13	121	1
+Embryonic stem cells	1	9	84	1
+Epithelial cells	1	14	131	1
+Mast cells	1	15	141	1
+Megakaryocytes	1	5	49	1
+NK cells	1	8	81	1
+Neuroblasts	1	5	51	1
+Myocytes	1	8	89	1
+Enterocytes	1	13	151	1
+B cells memory	1	5	68	1
+B cells naive	1	5	72	1
+Retinal progenitor cells	0	4	14	1
+Crypt cells	0	5	18	1
+Intercalated cells	0	5	25	1
+T regulatory cells	0	4	22	1
+Immature neurons	0	6	38	1
+Osteoblasts	0	9	66	1
+Mesangial cells	0	8	59	1
+Mesothelial cells	0	7	54	1
+Distal tubule cells	0	5	42	1
+Müller cells	0	6	51	1
+Cardiomyocytes	0	11	107	1
+Photoreceptor cells	0	5	53	1
+Ductal cells	0	4	44	1
+Neutrophils	0	6	71	1
+Alpha cells	0	4	48	1
+Schwann cells	0	4	49	1
+Keratinocytes	0	4	50	1
+Leydig cells	0	4	58	1
+Pericytes	0	4	62	1
+Germ cells	0	9	143	1
+Gamma delta T cells	0	4	65	1
+Podocytes	0	5	98	1
+Proximal tubule cells	0	4	79	1

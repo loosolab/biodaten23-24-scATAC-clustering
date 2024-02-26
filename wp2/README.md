@@ -8,9 +8,7 @@ The main task of WP2 is to annotate the clusters obtained from WP1 using the cen
 
 ### Annotation of clusters using the central repository for management and application of marker gene lists (Jupyter Notebooks)
 
-The segment below has information about the functionality of the main components of the repository and the ultimate goal 
-  of using the repository. This file contains a brief description of each component and its main operations. The idea is to represent the workflow
-  in a step-by-step manner from the selection of the appropriate makers to the final step of evaluating the resulting annotation.
+The segment below has information about the functionality of the main components of the repository and the ultimate goal of using the repository. This file contains a brief description of each component and its main operations. The idea is to represent the workflow in a step-by-step manner from the selection of the appropriate makers to the final step of evaluating the resulting annotation.
 
 1. Marker Repository
 2. Annotate
@@ -58,7 +56,6 @@ The segment below has information about the functionality of the main components
 - Automate the annotation process as much as possible, the functions are described in the files: auto_annotation.py and auto_annotation_notebook.ipynb (please see codes section)
 
 
-
 ## Contents 
 - [Install.md](./Install.md): 
 - [codes](./codes/):
@@ -67,9 +64,11 @@ The segment below has information about the functionality of the main components
   - [homology_notebook.ipynb](./codes/homology_notebook.ipynb):
   - [submit_new_marker_list_notebook.ipynb](./codes/submit_new_marker_list_notebook.ipynb):
 - [data](./data/):
-  - [DataSheet1.XLSX](./data/DataSheet1.XLSX)
-  - [DataSheet2.XLSX](./data/DataSheet2.XLSX)
-  - [2024_02_17](./data/2024_02_17/):
+  - [DataSheet1.XLSX](./data/DataSheet1.XLSX):
+  - [DataSheet2.XLSX](./data/DataSheet2.XLSX):
+  - [source_from_wp1](./data/source_from_wp1/):
+- [results](./results/):
+- [archive](./archive/):
 
 ## Installation
 To start the project, follow the instructions in [Install.md](./Install.md) to set up your development environment.

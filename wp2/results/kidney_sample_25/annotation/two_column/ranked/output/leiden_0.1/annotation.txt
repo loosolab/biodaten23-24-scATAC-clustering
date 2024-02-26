@@ -1,0 +1,4 @@
+0	Fibroblasts
+3	Macrophages
+1	Principal cells
+2	Endothelial cells

@@ -1,0 +1,8 @@
+3	Interneurons
+4	Enterocytes
+0	Interneurons
+7	Macrophages
+5	Cajal-Retzius cells
+2	Enterocytes
+6	Macrophages
+1	Neurons

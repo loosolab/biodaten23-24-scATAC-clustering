@@ -1,0 +1,16 @@
+15	Endothelial cells
+5	Platelets
+12	Microfold cells
+8	Monocytes
+2	Pulmonary alveolar type I cells
+6	Macrophages
+1	Macrophages
+11	Neural stem/precursor cells
+3	Interneurons
+9	Microglia
+13	Fibroblasts
+4	T cells
+14	Macrophages
+10	Macrophages
+0	Peritubular myoid cells
+7	Monocytes

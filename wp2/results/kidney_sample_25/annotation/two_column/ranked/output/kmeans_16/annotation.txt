@@ -1,0 +1,16 @@
+14	Principal cells
+9	Endothelial cells
+3	Fibroblasts
+4	Fibroblasts
+13	Interneurons
+0	Interneurons
+7	Epithelial cells
+10	Interneurons
+12	Macrophages
+5	Endothelial cells
+2	Enterocytes
+8	Monocytes
+15	Fibroblasts
+11	Germ cells
+6	Interneurons
+1	Podocytes

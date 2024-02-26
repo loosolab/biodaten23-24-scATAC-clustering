@@ -1,0 +1,13 @@
+3	Endothelial cells
+9	Mast cells
+13	Müller cells
+4	Mast cells
+0	Interneurons
+7	Mast cells
+5	Endothelial cells
+15	Retinal ganglion cells
+8	Endothelial cells
+2	Chondrocytes
+6	Mast cells
+11	Endothelial cells
+1	Neurons

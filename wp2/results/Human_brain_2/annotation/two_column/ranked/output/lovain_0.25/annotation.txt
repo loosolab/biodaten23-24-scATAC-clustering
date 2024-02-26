@@ -1,0 +1,5 @@
+0	Neurons
+3	Mast cells
+4	Endothelial cells
+1	Chondrocytes
+2	Endothelial cells

@@ -1,0 +1,14 @@
+2	Fibroblasts
+8	Pericytes
+13	Pancreatic stellate cells
+5	Fibroblasts
+1	Smooth muscle cells
+10	Fibroblasts
+6	Smooth muscle cells
+4	T cells
+9	Endothelial cells
+3	Fibroblasts
+12	Microglia
+7	Schwann cells
+0	Macrophages
+11	Fibroblasts

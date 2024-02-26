@@ -1,0 +1,6 @@
+0	Fibroblasts
+4	Endothelial cells
+3	Podocytes
+1	Interneurons
+2	Principal cells
+5	Macrophages

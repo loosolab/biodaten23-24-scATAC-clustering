@@ -1,0 +1,12 @@
+1	Endothelial cells
+6	Interneurons
+11	Macrophages
+2	Platelets
+8	Cajal-Retzius cells
+5	Enterocytes
+10	Fibroblasts
+7	Neurons
+0	Interneurons
+4	Neurons
+9	Macrophages
+3	Interneurons

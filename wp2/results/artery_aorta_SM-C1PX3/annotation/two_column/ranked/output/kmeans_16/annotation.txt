@@ -1,0 +1,16 @@
+6	Fibroblasts
+10	Cajal-Retzius cells
+1	Pancreatic stellate cells
+13	Fibroblasts
+5	Smooth muscle cells
+8	Smooth muscle cells
+14	Natural killer T cells
+2	Fibroblasts
+0	Myofibroblasts
+11	Fibroblasts
+7	Plasmacytoid dendritic cells
+3	Endothelial cells
+15	Microfold cells
+9	Retinal ganglion cells
+4	Smooth muscle cells
+12	Macrophages

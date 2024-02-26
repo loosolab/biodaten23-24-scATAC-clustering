@@ -1,0 +1,13 @@
+6	Neurons
+12	Neurons
+1	Beta cells
+5	Basal cells
+11	Pericytes
+2	Interneurons
+8	NK cells
+0	Interneurons
+7	Adipocytes
+10	Enteric neurons
+9	Neurons
+3	Alpha cells
+4	Chondrocytes

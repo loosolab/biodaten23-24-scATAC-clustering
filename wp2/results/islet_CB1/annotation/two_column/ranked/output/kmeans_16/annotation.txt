@@ -1,0 +1,16 @@
+13	Adipocytes
+7	Beta cells
+0	Interneurons
+14	Endothelial cells (aorta)
+10	NK cells
+4	Endothelial cells (aorta)
+3	Basal cells
+9	Cholangiocytes
+15	Pericytes
+1	Neurons
+6	Chondrocytes
+12	Endothelial cells
+8	Alpha cells
+2	Neurons
+5	Sertoli cells
+11	Neurons

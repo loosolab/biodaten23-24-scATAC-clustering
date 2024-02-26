@@ -1,0 +1,8 @@
+2	Macrophages
+5	Cholangiocytes
+1	Macrophages
+6	Fibroblasts
+4	Pulmonary alveolar type I cells
+3	Endothelial cells
+7	T cells
+0	Macrophages

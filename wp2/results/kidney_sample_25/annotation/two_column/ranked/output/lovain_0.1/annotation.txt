@@ -1,0 +1,4 @@
+1	Epithelial cells
+2	Endothelial cells
+0	Neurons
+3	Macrophages

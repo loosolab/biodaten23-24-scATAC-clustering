@@ -1,0 +1,13 @@
+7	Epithelial cells
+0	Podocytes
+4	Interneurons
+10	Foveolar cells
+3	Fibroblasts
+9	Fibroblasts
+12	Principal cells
+1	Endothelial cells
+6	Endothelial cells
+11	Macrophages
+8	Interneurons
+2	Fibroblasts
+5	Olfactory epithelial cells

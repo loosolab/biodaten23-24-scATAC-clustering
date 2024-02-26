@@ -1,0 +1,5 @@
+4	Macrophages
+3	Cajal-Retzius cells
+0	Neurons
+2	Interneurons
+1	Interneurons

@@ -1,0 +1,12 @@
+1	Smooth muscle cells
+6	Schwann cells
+2	Fibroblasts
+8	Endothelial cells
+11	Fibroblasts
+5	Smooth muscle cells
+7	Pericytes
+0	Macrophages
+4	T cells
+9	Fibroblasts
+3	Fibroblasts
+10	Fibroblasts

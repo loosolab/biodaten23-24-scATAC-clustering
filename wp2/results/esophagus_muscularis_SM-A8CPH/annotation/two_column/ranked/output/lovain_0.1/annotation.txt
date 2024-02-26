@@ -1,0 +1,6 @@
+5	Pericytes
+2	Macrophages
+1	Smooth muscle cells
+3	Platelets
+4	Schwann cells
+0	Fibroblasts

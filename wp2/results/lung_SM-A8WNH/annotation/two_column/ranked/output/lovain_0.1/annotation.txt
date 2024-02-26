@@ -1,0 +1,3 @@
+0	Macrophages
+1	Endothelial cells
+2	T cells

@@ -1,0 +1,9 @@
+4	Fibroblasts
+3	Fibroblasts
+7	Macrophages
+0	Smooth muscle cells
+2	Smooth muscle cells
+8	Endothelial cells (aorta)
+5	Fibroblasts
+1	Crypt cells
+6	Endothelial cells

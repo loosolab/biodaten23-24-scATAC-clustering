@@ -1,0 +1,13 @@
+1	Smooth muscle cells
+12	Fibroblasts
+6	Microfold cells
+8	Mast cells
+2	Fibroblasts
+11	Smooth muscle cells
+5	Fibroblasts
+7	Crypt cells
+0	Fibroblasts
+4	Smooth muscle cells
+10	Macrophages
+3	Endothelial cells
+9	Myofibroblasts

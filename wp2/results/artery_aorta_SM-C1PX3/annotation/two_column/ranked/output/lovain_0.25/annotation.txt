@@ -1,0 +1,4 @@
+3	Macrophages
+0	Smooth muscle cells
+2	Endothelial cells
+1	Fibroblasts

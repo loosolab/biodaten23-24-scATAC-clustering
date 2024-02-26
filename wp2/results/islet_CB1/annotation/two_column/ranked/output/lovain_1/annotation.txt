@@ -1,0 +1,9 @@
+2	Interneurons
+8	Acinar cells
+5	Alpha cells
+1	Beta cells
+6	Delta cells
+4	Beta cells
+3	Beta cells
+7	Epithelial cells
+0	Alpha cells

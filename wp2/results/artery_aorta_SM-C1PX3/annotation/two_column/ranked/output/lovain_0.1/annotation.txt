@@ -1,0 +1,3 @@
+2	Fibroblasts
+1	Platelets
+0	Smooth muscle cells

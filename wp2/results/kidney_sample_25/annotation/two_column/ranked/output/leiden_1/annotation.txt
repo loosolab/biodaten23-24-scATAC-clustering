@@ -1,0 +1,14 @@
+6	Interneurons
+12	Macrophages
+1	Fibroblasts
+11	Endothelial cells
+5	Interneurons
+8	Fibroblasts
+2	Fibroblasts
+0	Interneurons
+7	Epithelial cells
+13	Interneurons
+3	Podocytes
+9	Principal cells
+10	Endothelial cells
+4	Proximal tubule cells

@@ -1,0 +1,16 @@
+2	Macrophages
+8	Macrophages
+13	Neural stem/precursor cells
+14	T cells
+5	Fibroblasts
+10	Schwann cells
+1	Fibroblasts
+6	Pericytes
+15	Kupffer cells
+4	Smooth muscle cells
+9	Fibroblasts
+3	Epiblast cells
+12	Endothelial cells
+7	Microglia
+11	Fibroblasts
+0	Smooth muscle cells

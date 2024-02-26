@@ -1,0 +1,11 @@
+6	Fibroblasts
+10	Macrophages
+1	Fibroblasts
+5	Interneurons
+8	Fibroblasts
+2	Interneurons
+0	Interneurons
+7	Epithelial cells
+3	Ductal cells
+9	Endothelial cells
+4	Podocytes

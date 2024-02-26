@@ -1,0 +1,4 @@
+2	Endothelial cells
+1	Pulmonary alveolar type I cells
+3	T cells
+0	Macrophages

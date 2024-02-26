@@ -1,0 +1,6 @@
+2	Macrophages
+5	Fibroblasts
+1	Smooth muscle cells
+4	Pericytes
+3	Neural stem/precursor cells
+0	Fibroblasts

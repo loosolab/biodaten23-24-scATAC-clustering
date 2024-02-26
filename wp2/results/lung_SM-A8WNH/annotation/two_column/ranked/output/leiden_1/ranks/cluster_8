@@ -1,0 +1,147 @@
+Endothelial cells	15	118	194	1
+Endothelial cells (aorta)	7	49	89	1
+Hematopoietic stem cells	5	39	91	1
+Platelets	5	54	131	1
+Neurons	5	81	205	1
+Pericytes	4	30	62	1
+Cardiomyocytes	4	46	107	1
+Podocytes	4	42	98	1
+Mast cells	4	56	141	1
+Embryonic stem cells	4	31	84	1
+Fibroblasts	4	59	176	1
+Interneurons	4	71	224	1
+Hepatic stellate cells	3	24	45	1
+Bergmann glia	3	21	41	1
+Loop of Henle cells	3	25	53	1
+Mesangial cells	3	26	59	1
+Oligodendrocyte progenitor cells	3	13	30	1
+Megakaryocytes	3	21	49	1
+Satellite glial cells	3	10	24	1
+Sertoli cells	3	27	66	1
+Distal tubule cells	3	17	42	1
+Cajal-Retzius cells	3	33	85	1
+Tanycytes	3	10	26	1
+Myoepithelial cells	3	10	26	1
+Osteoclasts	3	20	52	1
+Smooth muscle cells	3	30	81	1
+Olfactory epithelial cells	3	47	131	1
+Oligodendrocytes	3	33	92	1
+Basophils	3	26	73	1
+Osteoblasts	3	23	66	1
+Myocytes	3	31	89	1
+Retinal ganglion cells	3	24	71	1
+Principal cells	3	15	45	1
+Müller cells	3	17	51	1
+Adipocytes	3	40	121	1
+Enterocytes	3	49	151	1
+Astrocytes	3	21	67	1
+Schwann cells	3	15	49	1
+Epithelial cells	3	40	131	1
+Cardiac stem and precursor cells	2	11	18	1
+Gastric chief cells	2	6	10	1
+Clara cells	2	11	23	1
+Pancreatic progenitor cells	2	8	17	1
+Adipocyte progenitor cells	2	11	24	1
+Pulmonary alveolar type I cells	2	16	35	1
+Pancreatic stellate cells	2	13	29	1
+Delta cells	2	15	34	1
+Choroid plexus cells	2	10	23	1
+Gamma (PP) cells	2	13	30	1
+Peritubular myoid cells	2	11	26	1
+Granulosa cells	2	7	17	1
+B cells memory	2	28	68	1
+Enteric glia cells	2	7	17	1
+Chromaffin cells	2	11	27	1
+Trophoblast cells	2	13	33	1
+Basal cells	2	22	56	1
+B cells naive	2	28	72	1
+Leydig cells	2	22	58	1
+Pyramidal cells	2	14	37	1
+Mesothelial cells	2	20	54	1
+Chondrocytes	2	19	52	1
+Paneth cells	2	16	44	1
+Transient cells	2	8	22	1
+Intercalated cells	2	9	25	1
+Enteric neurons	2	24	68	1
+Plasma cells	2	30	86	1
+Pinealocytes	2	9	26	1
+Keratinocytes	2	17	50	1
+T cells	2	32	96	1
+T helper cells	2	21	63	1
+Luminal epithelial cells	2	16	49	1
+Hepatocytes	2	49	151	1
+Ependymal cells	2	18	56	1
+B cells	2	30	97	1
+Germ cells	2	44	143	1
+Gamma delta T cells	2	20	65	1
+Stromal cells	2	11	36	1
+Proximal tubule cells	2	24	79	1
+Trigeminal neurons	2	14	47	1
+NK cells	2	24	81	1
+Melanocytes	2	13	44	1
+Myoblasts	2	10	34	1
+Pulmonary alveolar type II cells	2	12	42	1
+Erythroid-like and erythroid precursor cells	2	20	72	1
+Dendritic cells	2	34	124	1
+T memory cells	2	15	55	1
+T regulatory cells	2	6	22	1
+Ductal cells	2	12	44	1
+Erythroblasts	2	7	26	1
+Monocytes	2	27	103	1
+Neuroblasts	2	13	51	1
+Luteal cells	2	7	29	1
+Macrophages	2	32	134	1
+Natural killer T cells	2	6	26	1
+Photoreceptor cells	2	12	53	1
+Nuocytes	1	7	14	1
+Glutaminergic neurons	1	5	10	1
+Osteoclast precursor cells	1	4	8	1
+Follicular cells	1	7	15	1
+Urothelial cells	1	5	11	1
+Crypt cells	1	8	18	1
+Epiblast cells	1	7	17	1
+GABAergic neurons	1	6	15	1
+Ciliated cells	1	6	15	1
+Enterochromaffin cells	1	5	13	1
+Radial glia cells	1	5	14	1
+Retinal progenitor cells	1	5	14	1
+Neuroendocrine cells	1	9	26	1
+Satellite cells	1	15	44	1
+Meningeal cells	1	6	18	1
+Enteroendocrine cells	1	16	49	1
+Dopaminergic neurons	1	7	22	1
+Motor neurons	1	4	13	1
+Foveolar cells	1	7	23	1
+Pluripotent stem cells	1	6	20	1
+Taste receptor cells	1	6	20	1
+Neural stem/precursor cells	1	17	58	1
+Alpha cells	1	14	48	1
+Epsilon cells	1	13	45	1
+Beta cells	1	15	52	1
+Purkinje neurons	1	17	61	1
+Endothelial cells (blood brain barrier)	1	5	18	1
+Glomus cells	1	8	29	1
+Spermatocytes	1	6	22	1
+Sebocytes	1	7	26	1
+Langerhans cells	1	8	30	1
+Parietal cells	1	4	15	1
+Mammary epithelial cells	1	11	43	1
+Myeloid-derived suppressor cells	1	4	16	1
+Peri-islet Schwann cells	1	4	16	1
+Alveolar macrophages	1	6	24	1
+Goblet cells	1	9	37	1
+Airway goblet cells	1	6	25	1
+Neutrophils	1	17	71	1
+Immature neurons	1	9	38	1
+Anterior pituitary gland cells	1	8	34	1
+Acinar cells	1	12	51	1
+Eosinophils	1	7	30	1
+Thymocytes	1	5	22	1
+Hepatoblasts	1	4	18	1
+Kupffer cells	1	10	46	1
+Plasmacytoid dendritic cells	1	12	56	1
+Tuft cells	1	7	33	1
+Cholangiocytes	1	9	43	1
+Microfold cells	1	6	30	1
+Microglia	1	14	72	1
+Decidual cells	0	4	10	1

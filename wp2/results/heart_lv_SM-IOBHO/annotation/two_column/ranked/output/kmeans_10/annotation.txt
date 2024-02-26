@@ -1,0 +1,10 @@
+4	Fibroblasts
+3	Interneurons
+9	Fibroblasts
+7	Neurons
+0	Neurons
+8	Foveolar cells
+2	Macrophages
+5	Neurons
+1	Macrophages
+6	Interneurons
