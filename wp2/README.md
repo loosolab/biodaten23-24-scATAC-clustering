@@ -59,8 +59,7 @@ The segment below has information about the functionality of the main components
 
 
 
-## Contents
-- [Backgrounds.md](archive/Backgrounds.md): The knowledge required to understand and use this project. 
+## Contents 
 - [Install.md](./Install.md): 
 - [codes](./codes/):
   - [auto_annotation.py](./codes/auto_annotation.py):
