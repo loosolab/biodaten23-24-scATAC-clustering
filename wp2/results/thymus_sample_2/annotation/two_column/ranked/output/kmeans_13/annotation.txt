@@ -1,0 +1,13 @@
+12	B cells memory
+7	Hepatocytes
+0	Interneurons
+11	T memory cells
+4	Fibroblasts
+9	T cells
+3	Neurons
+1	T memory cells
+6	Enterocytes
+2	Interneurons
+8	T memory cells
+10	B cells
+5	Neurons

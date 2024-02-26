@@ -1,0 +1,9 @@
+1	Interneurons
+6	T memory cells
+2	T memory cells
+8	Fibroblasts
+5	Neurons
+7	Fibroblasts
+0	Beta cells
+4	T cells
+3	Interneurons

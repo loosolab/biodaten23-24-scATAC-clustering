@@ -1,0 +1,7 @@
+4	Macrophages
+3	Schwann cells
+0	Fibroblasts
+2	Endothelial cells
+5	Podocytes
+1	Smooth muscle cells
+6	Pericytes

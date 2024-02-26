@@ -1,0 +1,4 @@
+0	Acinar cells
+3	Fibroblasts
+1	Interneurons
+2	T memory cells

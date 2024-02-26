@@ -1,0 +1,146 @@
+Fibroblasts	14	96	176	1
+Pancreatic stellate cells	11	23	29	1
+Pericytes	10	31	62	1
+Adipocytes	10	55	121	1
+Endothelial cells (aorta)	9	44	89	1
+Endothelial cells	9	67	194	1
+Hepatic stellate cells	8	25	45	1
+Myocytes	8	42	89	1
+Neurons	8	85	205	1
+Mast cells	8	56	141	1
+Mesangial cells	7	31	59	1
+Podocytes	7	41	98	1
+Monocytes	7	41	103	1
+Enterocytes	7	60	151	1
+Stromal cells	6	18	36	1
+Retinal ganglion cells	6	35	71	1
+Platelets	6	58	131	1
+Chondrocytes	6	23	52	1
+Olfactory epithelial cells	6	57	131	1
+Satellite cells	6	18	44	1
+Smooth muscle cells	6	32	81	1
+Oligodendrocytes	6	36	92	1
+Cardiomyocytes	6	36	107	1
+Interneurons	6	73	224	1
+Cajal-Retzius cells	5	37	85	1
+Purkinje neurons	5	26	61	1
+Adipocyte progenitor cells	5	10	24	1
+Epiblast cells	5	7	17	1
+Peritubular myoid cells	5	10	26	1
+Microglia	5	27	72	1
+Luminal epithelial cells	5	18	49	1
+T cells	5	34	96	1
+Mesothelial cells	5	19	54	1
+Schwann cells	5	17	49	1
+B cells	5	32	97	1
+Hepatocytes	5	49	151	1
+Pulmonary alveolar type I cells	4	19	35	1
+Plasmacytoid dendritic cells	4	28	56	1
+Neuroendocrine cells	4	13	26	1
+Epsilon cells	4	22	45	1
+Melanocytes	4	21	44	1
+Astrocytes	4	30	67	1
+Megakaryocytes	4	21	49	1
+Radial glia cells	4	6	14	1
+Erythroid-like and erythroid precursor cells	4	30	72	1
+Glomus cells	4	12	29	1
+T helper cells	4	26	63	1
+Ductal cells	4	18	44	1
+Transient cells	4	9	22	1
+Loop of Henle cells	4	21	53	1
+Embryonic stem cells	4	32	84	1
+Alpha cells	4	18	48	1
+Immature neurons	4	14	38	1
+Germ cells	4	52	143	1
+Osteoblasts	4	24	66	1
+Leydig cells	4	21	58	1
+Delta cells	4	12	34	1
+Enteric glia cells	4	6	17	1
+Osteoclasts	4	18	52	1
+Basophils	4	25	73	1
+Hematopoietic stem cells	4	31	91	1
+Enteric neurons	4	23	68	1
+Meningeal cells	4	6	18	1
+Oligodendrocyte progenitor cells	4	10	30	1
+Gamma delta T cells	4	21	65	1
+Motor neurons	4	4	13	1
+Macrophages	4	38	134	1
+NK cells	4	22	81	1
+Dendritic cells	4	33	124	1
+Myoblasts	4	9	34	1
+Beta cells	4	11	52	1
+Foveolar cells	3	15	23	1
+Red pulp macrophages	3	6	12	1
+Granulosa cells	3	8	17	1
+Eosinophils	3	14	30	1
+Pinealocytes	3	12	26	1
+T regulatory cells	3	10	22	1
+Photoreceptor cells	3	22	53	1
+Gamma (PP) cells	3	12	30	1
+Tanycytes	3	10	26	1
+Erythroblasts	3	10	26	1
+Acinar cells	3	19	51	1
+Chromaffin cells	3	10	27	1
+Enteroendocrine cells	3	18	49	1
+Sertoli cells	3	24	66	1
+Basal cells	3	20	56	1
+Pancreatic progenitor cells	3	6	17	1
+Paneth cells	3	15	44	1
+Trophoblast cells	3	11	33	1
+Müller cells	3	17	51	1
+Proximal tubule cells	3	26	79	1
+Kupffer cells	3	15	46	1
+Goblet cells	3	12	37	1
+Bergmann glia	3	13	41	1
+Mammary epithelial cells	3	13	43	1
+B cells naive	3	21	72	1
+Ependymal cells	3	15	56	1
+Neutrophils	3	19	71	1
+Plasma cells	3	23	86	1
+Keratinocytes	3	13	50	1
+Satellite glial cells	3	6	24	1
+Dopaminergic neurons	3	5	22	1
+Epithelial cells	3	26	131	1
+Ciliated cells	2	9	15	1
+Luteal cells	2	13	29	1
+Hepatoblasts	2	8	18	1
+Nuocytes	2	6	14	1
+Myoepithelial cells	2	11	26	1
+Glutaminergic neurons	2	4	10	1
+Parietal cells	2	6	15	1
+Natural killer T cells	2	10	26	1
+Sebocytes	2	10	26	1
+Pulmonary alveolar type II cells	2	16	42	1
+Cholangiocytes	2	16	43	1
+Intercalated cells	2	9	25	1
+Distal tubule cells	2	15	42	1
+Principal cells	2	16	45	1
+T memory cells	2	18	55	1
+Airway goblet cells	2	8	25	1
+Peri-islet Schwann cells	2	5	16	1
+T follicular helper cells	2	4	13	1
+Undefined placental cells	2	4	13	1
+Tuft cells	2	10	33	1
+Microfold cells	2	9	30	1
+Trigeminal neurons	2	14	47	1
+Pyramidal cells	2	11	37	1
+Neuroblasts	2	14	51	1
+Neural stem/precursor cells	2	15	58	1
+Myeloid-derived suppressor cells	2	4	16	1
+Merkel cells	2	4	16	1
+B cells memory	2	16	68	1
+T cytotoxic cells	1	4	8	1
+Spermatozoa	1	4	9	1
+Spermatocytes	1	9	22	1
+Decidual cells	1	4	10	1
+Cardiac stem and precursor cells	1	7	18	1
+Clara cells	1	8	23	1
+Choroid plexus cells	1	7	23	1
+Pluripotent stem cells	1	6	20	1
+Crypt cells	1	5	18	1
+Endothelial cells (blood brain barrier)	1	5	18	1
+GABAergic neurons	1	4	15	1
+Taste receptor cells	1	5	20	1
+Alveolar macrophages	1	6	24	1
+Anterior pituitary gland cells	1	8	34	1
+Langerhans cells	1	5	30	1

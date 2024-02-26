@@ -1,8 +1,0 @@
-7	Endothelial cells
-0	Hepatocytes
-4	Interneurons
-3	Enterocytes
-1	Crypt cells
-6	Interneurons
-2	Neurons
-5	Endothelial cells

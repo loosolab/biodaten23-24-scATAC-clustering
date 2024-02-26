@@ -1,5 +1,0 @@
-1	Pulmonary alveolar type I cells
-2	Endothelial cells
-0	Macrophages
-4	Fibroblasts
-3	NK cells

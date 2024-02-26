@@ -1,0 +1,2 @@
+0	T memory cells
+1	Fibroblasts

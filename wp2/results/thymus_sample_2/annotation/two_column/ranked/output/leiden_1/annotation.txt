@@ -1,0 +1,10 @@
+0	Foveolar cells
+7	Endothelial cells
+9	Fibroblasts
+3	Neurons
+4	T cells
+6	Interneurons
+1	T memory cells
+5	T cells
+2	Thymocytes
+8	Fibroblasts

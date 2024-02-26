@@ -1,0 +1,5 @@
+0	T cells
+4	Epithelial cells
+3	Macrophages
+1	Keratinocytes
+2	Fibroblasts

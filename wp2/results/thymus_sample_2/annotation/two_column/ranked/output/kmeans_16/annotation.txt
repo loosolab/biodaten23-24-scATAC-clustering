@@ -1,0 +1,16 @@
+15	T cytotoxic cells
+4	Adipocytes
+3	Oligodendrocytes
+9	T memory cells
+12	Interneurons
+7	T memory cells
+0	Beta cells
+11	Interneurons
+8	Enteric neurons
+2	Neurons
+13	T memory cells
+14	Enterocytes
+5	T cells
+1	T cells
+10	Fibroblasts
+6	T memory cells

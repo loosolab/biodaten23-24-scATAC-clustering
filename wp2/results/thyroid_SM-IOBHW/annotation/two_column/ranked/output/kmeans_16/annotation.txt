@@ -1,0 +1,16 @@
+4	Endothelial cells
+10	Fibroblasts
+3	Olfactory epithelial cells
+9	Dopaminergic neurons
+7	Mammary epithelial cells
+13	Interneurons
+14	Transient cells
+0	Interneurons
+8	Loop of Henle cells
+2	Müller cells
+11	Cardiomyocytes
+5	Podocytes
+1	Endothelial cells
+15	Interneurons
+12	Fibroblasts
+6	T memory cells

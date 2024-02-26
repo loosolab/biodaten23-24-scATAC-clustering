@@ -1,0 +1,16 @@
+2	Interneurons
+8	Endothelial cells (aorta)
+10	Schwann cells
+5	Fibroblasts
+1	Interneurons
+13	Schwann cells
+14	Smooth muscle cells
+6	Smooth muscle cells
+4	Fibroblasts
+11	Macrophages
+9	Retinal ganglion cells
+3	Stromal cells
+7	Fibroblasts
+15	Endothelial cells
+12	Smooth muscle cells
+0	Endothelial cells

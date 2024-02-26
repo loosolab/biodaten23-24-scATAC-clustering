@@ -1,0 +1,6 @@
+2	T memory cells
+5	Fibroblasts
+1	Neurons
+4	T memory cells
+3	Interneurons
+0	Foveolar cells

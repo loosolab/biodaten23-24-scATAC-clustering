@@ -1,5 +1,0 @@
-1	Neurons
-2	Crypt cells
-0	Hepatocytes
-3	Interneurons
-4	Endothelial cells

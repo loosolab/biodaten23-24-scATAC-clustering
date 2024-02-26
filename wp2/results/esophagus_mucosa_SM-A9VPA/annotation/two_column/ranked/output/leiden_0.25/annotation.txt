@@ -1,0 +1,6 @@
+1	Endothelial cells
+2	Keratinocytes
+5	Epithelial cells
+0	T cells
+4	Macrophages
+3	Keratinocytes

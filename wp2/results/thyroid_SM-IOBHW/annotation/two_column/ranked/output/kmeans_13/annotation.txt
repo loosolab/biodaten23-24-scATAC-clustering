@@ -1,0 +1,13 @@
+7	Endothelial cells
+10	Pulmonary alveolar type I cells
+0	Ductal cells
+4	T memory cells
+9	Fibroblasts
+3	Myocytes
+1	Interneurons
+6	Mammary epithelial cells
+11	Interneurons
+2	Fibroblasts
+8	Distal tubule cells
+5	Enterocytes
+12	Endothelial cells

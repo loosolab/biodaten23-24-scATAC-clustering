@@ -1,0 +1,146 @@
+T memory cells	15	47	55	1
+T cells	15	73	96	1
+NK cells	12	54	81	1
+T helper cells	10	42	63	1
+B cells	9	51	97	1
+Thymocytes	8	16	22	1
+Dendritic cells	8	56	124	1
+Macrophages	8	60	134	1
+Platelets	8	50	131	1
+T cytotoxic cells	7	7	8	1
+Natural killer T cells	7	19	26	1
+B cells naive	7	35	72	1
+Monocytes	7	48	103	1
+T follicular helper cells	6	12	13	1
+Gamma delta T cells	6	34	65	1
+Microglia	6	32	72	1
+B cells memory	6	30	68	1
+Hematopoietic stem cells	6	38	91	1
+Interneurons	6	78	224	1
+Erythroid-like and erythroid precursor cells	5	38	72	1
+Plasmacytoid dendritic cells	5	27	56	1
+Oligodendrocytes	5	39	92	1
+Megakaryocytes	5	20	49	1
+Plasma cells	5	34	86	1
+Endothelial cells	5	67	194	1
+Nuocytes	4	8	14	1
+Tuft cells	4	18	33	1
+Eosinophils	4	15	30	1
+T regulatory cells	4	11	22	1
+Neutrophils	4	27	71	1
+Podocytes	4	37	98	1
+Olfactory epithelial cells	4	45	131	1
+Neurons	4	68	205	1
+Fibroblasts	4	57	176	1
+Epithelial cells	4	38	131	1
+Mast cells	4	35	141	1
+T cells naive	3	4	4	1
+Reticulocytes	3	5	8	1
+Decidual cells	3	5	10	1
+Erythroblasts	3	13	26	1
+Pancreatic progenitor cells	3	8	17	1
+Microfold cells	3	14	30	1
+Myeloid-derived suppressor cells	3	7	16	1
+Merkel cells	3	7	16	1
+Neural stem/precursor cells	3	24	58	1
+Satellite cells	3	18	44	1
+Schwann cells	3	20	49	1
+Astrocytes	3	26	67	1
+Osteoclasts	3	20	52	1
+Retinal ganglion cells	3	27	71	1
+Hepatocytes	3	57	151	1
+Enteric neurons	3	24	68	1
+Pyramidal cells	3	13	37	1
+Kupffer cells	3	16	46	1
+Basophils	3	24	73	1
+Pericytes	3	20	62	1
+Sertoli cells	3	21	66	1
+Myocytes	3	28	89	1
+Distal tubule cells	3	13	42	1
+Embryonic stem cells	3	26	84	1
+Neuroblasts	3	15	51	1
+Immature neurons	3	11	38	1
+Adipocytes	3	35	121	1
+Cajal-Retzius cells	3	24	85	1
+Enterocytes	3	42	151	1
+Osteoblasts	3	18	66	1
+Cardiomyocytes	3	28	107	1
+Mesangial cells	3	15	59	1
+Luminal epithelial cells	3	12	49	1
+Germ cells	3	34	143	1
+Endothelial cells (aorta)	3	17	89	1
+Urothelial cells	2	7	11	1
+Taste receptor cells	2	11	20	1
+Enteric glia cells	2	9	17	1
+Red pulp macrophages	2	6	12	1
+Parietal cells	2	7	15	1
+Ciliated cells	2	7	15	1
+Undefined placental cells	2	6	13	1
+Glomus cells	2	13	29	1
+Clara cells	2	10	23	1
+Retinal progenitor cells	2	6	14	1
+Intercalated cells	2	10	25	1
+Pulmonary alveolar type I cells	2	14	35	1
+Melanocytes	2	17	44	1
+Neuroendocrine cells	2	10	26	1
+Myoblasts	2	13	34	1
+Chromaffin cells	2	10	27	1
+Paneth cells	2	16	44	1
+Airway goblet cells	2	9	25	1
+Hepatic stellate cells	2	16	45	1
+Delta cells	2	12	34	1
+Enteroendocrine cells	2	17	49	1
+Tanycytes	2	9	26	1
+Photoreceptor cells	2	18	53	1
+Trophoblast cells	2	11	33	1
+Alpha cells	2	16	48	1
+Crypt cells	2	6	18	1
+Pulmonary alveolar type II cells	2	14	42	1
+Trigeminal neurons	2	15	47	1
+Bergmann glia	2	13	41	1
+Proximal tubule cells	2	24	79	1
+Basal cells	2	17	56	1
+Müller cells	2	15	51	1
+Stromal cells	2	10	36	1
+Ependymal cells	2	15	56	1
+Langerhans cells	2	8	30	1
+Gamma (PP) cells	2	8	30	1
+Satellite glial cells	2	6	24	1
+Adipocyte progenitor cells	2	6	24	1
+Smooth muscle cells	2	20	81	1
+Leydig cells	2	14	58	1
+Mesothelial cells	2	13	54	1
+Chondrocytes	2	12	52	1
+Beta cells	2	12	52	1
+Loop of Henle cells	2	12	53	1
+Principal cells	2	10	45	1
+Purkinje neurons	2	13	61	1
+Epsilon cells	2	9	45	1
+Spermatozoa	1	5	9	1
+GABAergic neurons	1	7	15	1
+Gastric chief cells	1	4	10	1
+Motor neurons	1	5	13	1
+Peritubular myoid cells	1	9	26	1
+Alveolar macrophages	1	8	24	1
+Luteal cells	1	9	29	1
+Pinealocytes	1	8	26	1
+Myoepithelial cells	1	8	26	1
+Granulosa cells	1	5	17	1
+Anterior pituitary gland cells	1	10	34	1
+Dopaminergic neurons	1	6	22	1
+Transient cells	1	6	22	1
+Goblet cells	1	10	37	1
+Sebocytes	1	7	26	1
+Oligodendrocyte progenitor cells	1	8	30	1
+Choroid plexus cells	1	6	23	1
+Foveolar cells	1	6	23	1
+Keratinocytes	1	13	50	1
+Pluripotent stem cells	1	5	20	1
+Cardiac stem and precursor cells	1	4	18	1
+Mammary epithelial cells	1	9	43	1
+Cholangiocytes	1	9	43	1
+Pancreatic stellate cells	1	6	29	1
+Spermatocytes	1	4	22	1
+Acinar cells	1	9	51	1
+Ductal cells	1	7	44	1
+Endothelial cells (blood brain barrier)	0	5	18	1

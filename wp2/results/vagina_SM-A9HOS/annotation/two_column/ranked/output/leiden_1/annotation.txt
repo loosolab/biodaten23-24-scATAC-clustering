@@ -1,0 +1,11 @@
+1	NK cells
+6	Smooth muscle cells
+2	Fibroblasts
+8	Macrophages
+5	Endothelial cells
+7	Endothelial cells
+0	Fibroblasts
+4	Smooth muscle cells
+10	Endothelial cells
+9	Schwann cells
+3	Smooth muscle cells

@@ -1,0 +1,7 @@
+4	Epithelial cells
+3	Fibroblasts
+0	Interneurons
+2	Neurons
+5	Endothelial cells
+1	B cells naive
+6	T memory cells

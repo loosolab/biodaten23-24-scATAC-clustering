@@ -1,0 +1,13 @@
+12	Interneurons
+2	Smooth muscle cells
+8	Fibroblasts
+5	Schwann cells
+11	Smooth muscle cells
+1	Endothelial cells
+6	Macrophages
+4	Fibroblasts
+9	Interneurons
+3	Trigeminal neurons
+7	Endothelial cells
+0	Endothelial cells
+10	Interneurons

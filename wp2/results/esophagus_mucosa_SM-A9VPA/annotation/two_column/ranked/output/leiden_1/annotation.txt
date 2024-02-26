@@ -1,0 +1,13 @@
+9	Endothelial cells
+3	Keratinocytes
+4	Endothelial cells
+12	B cells
+0	T cells
+7	Keratinocytes
+11	Keratinocytes
+5	T cells
+2	T cells
+8	Keratinocytes
+6	Macrophages
+10	Epithelial cells
+1	Fibroblasts

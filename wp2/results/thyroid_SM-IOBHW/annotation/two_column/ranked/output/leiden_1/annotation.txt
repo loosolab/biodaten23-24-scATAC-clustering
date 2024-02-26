@@ -1,0 +1,10 @@
+6	Fibroblasts
+1	Follicular cells
+5	Ductal cells
+2	Interneurons
+8	Endothelial cells
+0	Interneurons
+7	Endothelial cells
+9	T memory cells
+3	Neurons
+4	Interneurons

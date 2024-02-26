@@ -1,0 +1,7 @@
+0	Germ cells
+3	Neurons
+4	Fibroblasts
+6	T memory cells
+1	Principal cells
+5	Endothelial cells
+2	Interneurons

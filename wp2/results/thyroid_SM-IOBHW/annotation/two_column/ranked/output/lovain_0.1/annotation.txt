@@ -1,0 +1,4 @@
+1	Fibroblasts
+2	Endothelial cells
+0	Follicular cells
+3	T memory cells

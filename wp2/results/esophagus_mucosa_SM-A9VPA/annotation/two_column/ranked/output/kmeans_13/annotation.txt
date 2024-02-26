@@ -1,0 +1,13 @@
+5	T cells
+10	Endothelial cells
+8	Keratinocytes
+2	T cells
+6	T memory cells
+1	T helper cells
+3	Keratinocytes
+9	T memory cells
+11	T cells
+4	Fibroblasts
+0	Epithelial cells
+12	T memory cells
+7	Macrophages
