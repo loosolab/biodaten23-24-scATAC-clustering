@@ -254,7 +254,7 @@ def auto_show_tables(annotation_dir=None, n=5, clustering_column="leiden_0.1", s
 def run_annotation_new(adata, marker_repo=True, SCSA=False, marker_lists=None, mr_obs="mr", scsa_obs="scsa", 
                    rank_genes_column=None, clustering_column=None, reference_obs=None, keep_all=False, 
                    verbose=False, show_ct_tables=False, show_plots=False, show_comparison=False, ignore_overwrite=True,
-                   celltype_column_name=None):
+                   celltype_column_name=None, save_results_to_md=False, ha5d_path=None):
     """
     Performs annotations on single cell data and allows the user to choose between different annotation methods. 
 
@@ -381,8 +381,9 @@ def run_annotation_new(adata, marker_repo=True, SCSA=False, marker_lists=None, m
     # Compare annotations
     if show_comparison:
         print("Comparison of cell type annotations:")
+        comparison_df = annot.compare_cell_types(adata, clustering_column, annotation_columns)
 
-        display(annot.compare_cell_types(adata, clustering_column, annotation_columns))
+        display(comparison_df)
     
     # Select cell type annotation
     if celltype_column_name:
@@ -399,16 +400,23 @@ def run_annotation_new(adata, marker_repo=True, SCSA=False, marker_lists=None, m
 
         columns_to_remove = [col for col in annotation_columns if col not in columns_to_keep]
         adata.obs.drop(columns=columns_to_remove, inplace=True)
+    
+    if save_results_to_md:
+        with open(f'results_{ha5d_path.split("/")[-1]}.md', 'a') as f:
+            f.write(f"![](./figures/umap{clustering_column}.png)\n")
+            f.write(comparison_df.to_markdown())
+            f.write("\n---\n")
 
-    return clustering_column, annot.compare_cell_types(adata, clustering_column, annotation_columns), umap_plot_file, auto_show_tables(annotation_dir=annotation_dir, n=5, clustering_column=clustering_column, show_diff=True)
+    return clustering_column, comparison_df, umap_plot_file, auto_show_tables(annotation_dir=annotation_dir, n=5, clustering_column=clustering_column, show_diff=True)
 
-def multiple_annotation(adata, marker_lists, clustering_column_lists, rank_genes_column, celltype_column_name):
+def multiple_annotation(adata, marker_lists, clustering_column_lists, rank_genes_column, celltype_column_name, save_results_to_md, ha5d_path):
     annotation_results = []
+
     for column in clustering_column_lists:
         annotation_results.append(run_annotation_new(adata, SCSA=False, marker_lists=marker_lists, reference_obs=None, show_comparison=True,
                     clustering_column=column, rank_genes_column=rank_genes_column, 
                     ignore_overwrite=True, verbose=False, show_plots=True, show_ct_tables=False, 
-                    celltype_column_name=celltype_column_name))
+                    celltype_column_name=celltype_column_name, save_results_to_md=save_results_to_md, ha5d_path=ha5d_path))
     
     return annotation_results
 
