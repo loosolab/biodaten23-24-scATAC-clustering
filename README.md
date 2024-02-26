@@ -27,7 +27,7 @@ This project focuses on analysing scATAC-Seq data using clustering algorithms an
 - export for WP2
 
 ### [WP2](wp2/)
-- create a marker list
+- submit a marker list
 - transfer markers from a source organism using the homology function
 - annotate the cluster based on the marker list used as input
 - automate the annotation process
