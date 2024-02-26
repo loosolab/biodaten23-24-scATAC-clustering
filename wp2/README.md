@@ -32,7 +32,7 @@ The segment below has information about the functionality of the main components
 - Marker identifiers: Ensembl ID or GeneSymbol
 
 #### 1.1.1 Adding marker lists: step-by-step
-- This section is explained in detail in the mySubmit.ipnyb notebook
+- This section is explained in detail in file: submit_new_marker_list_notebook.ipynb (please see codes section)
 
 #### 1.1.2 Querying the repository: 
 - Lists can be searched for keywords --> guided_search: when we click "continue searching" it keeps searching on the search performed before
@@ -41,7 +41,7 @@ The segment below has information about the functionality of the main components
 
 #### 1.1.3 Transfer markers 
 - The user can transfer markers from a source organism to a target organism using two different homology-based approaches
-- This section is explained in more detail in the homology.ipynb notebook
+- This section is explained in more detail in the file: homology_notebook.ipynb (please see codes section)
 
 ### 2. Annotate using Scanpy
 - t1.rank_gene_groups: this function calculates a score for the potential cell types based on the marker lists it uses as input --> the scores are used to annotate the AnnData object
