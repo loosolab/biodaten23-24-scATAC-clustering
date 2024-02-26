@@ -18,7 +18,7 @@
 </p>
 
 ## Arbeitsgruppen
-This project focuses on analysing scATAC-Seq data using clustering algorithms and developing the Residual Average Gini Index (RAGI) metric. The aim is to explore patterns in chromatin accessibility at the single cell level and to determine clusters of different cell types, that can then be annotated.
+This project focuses on analysing scATAC-Seq data using clustering algorithms and developing the Residual Average Gini Index (RAGI) metric. The aim is to explore patterns in chromatin accessibility at the single-cell level and to determine clusters of different cell types, that can then be annotated. The cell annotation is made possible by using marker gene lists, which are stored in the Marker Repository. 
 
 ### [WP1](wp1/)
 - preprocessing
@@ -27,4 +27,4 @@ This project focuses on analysing scATAC-Seq data using clustering algorithms an
 - export for WP2
 
 ### WP2
-- ...
+- 
