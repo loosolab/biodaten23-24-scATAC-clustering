@@ -1,6 +1,6 @@
 ## Annotation of clusters using the central repository for management and application of marker gene lists (Jupyter Notebooks)
 
-- The segment below has information about the functionality of the main components of the repository and the ultimate goal 
+The segment below has information about the functionality of the main components of the repository and the ultimate goal 
   of using the repository. This file contains a brief description of each component and its main operations. The idea is to represent the workflow
   in a step-by-step manner from the selection of the appropriate makers to the final step of evaluating the resulting annotation.
 
@@ -9,7 +9,7 @@
 3. Evaluate
 
 ## 1. Marker Repository
-- Repository was created to assign a biological meaning to these clusters by comparing features, such as chromatin accessibility, to known markers for specific cell types. The annotation of the cluster was made possible by using marker genes.
+- Repository was created to assign a biological meaning to these clusters by comparing features, such as chromatin accessibility, to known markers for specific cell types. The annotation of the cluster was made possible by using marker genes
 - The markers lists used in the annotation process were taken
   from PanglaoDB, CellMarker 2.0, or hand-curated.
 - Challenges:
