@@ -17,7 +17,7 @@ The segment below has information about the functionality of the main components
 3. Evaluate
 
 #### 1. Marker Repository
-- The Marker Repository was created to assign a biological meaning to these clusters by comparing features, such as chromatin accessibility, to known markers for specific cell types. 
+- The Marker Repository was created to assign a biological meaning to these clusters by comparing features, such as chromatin accessibility, to known markers for specific cell types 
 - The markers lists used in the annotation process were taken
   from PanglaoDB, CellMarker 2.0, or hand-curated.
 - Challenges:
@@ -27,9 +27,6 @@ The segment below has information about the functionality of the main components
 #### 1.1 Marker Lists:
 - Marker lists represented as Pandas DataFrames, stored in YAML files as "key.yaml"
 - YAML format as Two Column Style --> The First column is the "Marker" (gene) and the second column is the  "Info" (cell type)
-- "key.yaml" consists of two main sections: metadata and marker_list
-- whitelist attribute needs to be run first to avoid data inconsistencies
-- Marker identifiers: Ensembl ID or GeneSymbol
 
 #### 1.1.1 Adding marker lists: step-by-step
 - This section is explained in detail in file: submit_new_marker_list_notebook.ipynb (please see codes section)
@@ -43,12 +40,10 @@ The segment below has information about the functionality of the main components
 - The user can transfer markers from a source organism to a target organism using two different homology-based approaches
 - This section is explained in more detail in the file: homology_notebook.ipynb (please see codes section)
 
-### 2. Annotate using Scanpy
+#### 2. Annotate using Scanpy
 - t1.rank_gene_groups: this function calculates a score for the potential cell types based on the marker lists it uses as input --> the scores are used to annotate the AnnData object
-- - Creating marker lists: compiles existing marker lists based on user-defined criteria that can be integrated
-  into subsequent analyses
 
-### 2.1 Annotating AnnData: annotating clustered h5ad files via the Annotation Jupyter Notebook (4 steps)
+#### 2.1 Annotating AnnData: annotating clustered h5ad files via the Annotation Jupyter Notebook (4 steps)
 1. Information entry: define the repository path, the h5ad file to annotate, the organism of interest, and other variables
 2. Preparing AnnData object: data loaded from the specified h5ad file, validate preliminary settings
 3. Creating marker: The create_marker_lists function curates subsets of existing markers
@@ -59,10 +54,10 @@ The segment below has information about the functionality of the main components
   a range of potential alternative cell types
 
 
-### 3. Evaluate
+#### 3. Evaluate
 - Ontology labels were used as reference data to evaluate the accuracy of the annotation produced by the MarkerRepo
 - Homology-based annotation: evaluate the effects on the annotation when using translated human markers vs. using human markers
-- Automate the annotation process as much as possible (the functions are described in detail in codes section) 
+- Automate the annotation process as much as possible, the functions are described in the files: auto_annotation.py and auto_annotation_notebook.ipynb (please see codes section)
 
 
 
