@@ -40,10 +40,10 @@ The segment below has information about the functionality of the main components
 - The user can transfer markers from a source organism to a target organism using two different homology-based approaches
 - This section is explained in more detail in the file: homology_notebook.ipynb (please see codes section)
 
-### 2. Annotate using Scanpy
+#### 2. Annotate using Scanpy
 - t1.rank_gene_groups: this function calculates a score for the potential cell types based on the marker lists it uses as input --> the scores are used to annotate the AnnData object
 
-### 2.1 Annotating AnnData: annotating clustered h5ad files via the Annotation Jupyter Notebook (4 steps)
+#### 2.1 Annotating AnnData: annotating clustered h5ad files via the Annotation Jupyter Notebook (4 steps)
 1. Information entry: define the repository path, the h5ad file to annotate, the organism of interest, and other variables
 2. Preparing AnnData object: data loaded from the specified h5ad file, validate preliminary settings
 3. Creating marker: The create_marker_lists function curates subsets of existing markers
@@ -54,7 +54,7 @@ The segment below has information about the functionality of the main components
   a range of potential alternative cell types
 
 
-### 3. Evaluate
+#### 3. Evaluate
 - Ontology labels were used as reference data to evaluate the accuracy of the annotation produced by the MarkerRepo
 - Homology-based annotation: evaluate the effects on the annotation when using translated human markers vs. using human markers
 - Automate the annotation process as much as possible, the functions are described in the files: auto_annotation.py and auto_annotation_notebook.ipynb) (please see codes section)
