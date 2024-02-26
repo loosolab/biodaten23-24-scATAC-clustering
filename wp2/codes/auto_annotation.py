@@ -1,5 +1,6 @@
-# The following code is the Python script used to annotate the clusters obtained from the scATAc-seq data analysis
-
+# The following code is the Python script used to annotate the clusters obtained from the scATAC-seq data analysis
+# This script relies on different Python libraries (pandas, scanpy, matplotlib, and others) for data visualization and analysis
+# Many functions were directly loaded from MarkerRepo, while others were modified/created to automate the annotation process as much as possible
 
 import markerrepo.marker_repo as mr
 import markerrepo.wrappers as wrap
@@ -21,11 +22,15 @@ try:
 except ModuleNotFoundError:
     warnings.warn("Please install the latest sctoolbox version. Some functionality may not be available.", RuntimeWarning)
 
-# This function returns a list of the clustering methods used from the AnnData object
+# This function returns a list of the clustering methods used from the loaded AnnData object
+# The AnnData must be given as an input parameter for it contains the clustering information (Louvain, Leiden or Kmeans)
 def get_clustering_column_list(adata):
     return list(adata.uns["clusters"].keys())
 
 # The user must validate the settings before starting the annotation process, such as file paths, AnnData object columns, and specified organism
+# The variable "settings" contains the parameters necessary for the "create_marker_list" function
+# The variable "adata" is the AnnData object to annotate
+# rank_genes_column is the table were the ranked genes are stored
 def auto_validate_settings(settings=None, repo_path=None, adata=None, organism=None, rank_genes_column=None, genes_column=None, 
                       clustering_column=None, ensembl=None, col_to_search=None, search_terms=None, column_specific_terms=None):
     """
@@ -210,6 +215,10 @@ def auto_validate_settings(settings=None, repo_path=None, adata=None, organism=N
 
     return True
 
+# This function displays a DataFrame for each cluster as explained below
+# "n" shows the number of rows to display for each cluster
+# "show_diff" shows the normalized differences in the output 
+# This function displays a visual summary of the annotation results
 def auto_show_tables(annotation_dir=None, n=5, clustering_column="leiden_0.1", show_diff=True):
     """
     Display dataframes for each cluster showing scores, hits, number of genes, mean of UI. Optionally, 
@@ -250,7 +259,12 @@ def auto_show_tables(annotation_dir=None, n=5, clustering_column="leiden_0.1", s
 
     return cluster_dict
 
+# The following function runs the annotation on the scATAC-seq data using different annotation methods
 # The parameter "SCSA" is set to "False" since we are missing the library
+# The annotation is performed using only the MarkerRepo
+# "marker_lists" is the path to the marker list files generated to perform the annotation
+# Existing files with cell type annotations will be overwritten without user confirmation if the "ignore_overwrite" variable is the to "True"
+# The different annotation parameters allow an user-defined customization of the output
 def run_annotation_new(adata, marker_repo=True, SCSA=False, marker_lists=None, mr_obs="mr", scsa_obs="scsa", 
                    rank_genes_column=None, clustering_column=None, reference_obs=None, keep_all=False, 
                    verbose=False, show_ct_tables=False, show_plots=False, show_comparison=False, ignore_overwrite=True,
@@ -402,6 +416,9 @@ def run_annotation_new(adata, marker_repo=True, SCSA=False, marker_lists=None, m
 
     return clustering_column, annot.compare_cell_types(adata, clustering_column, annotation_columns), umap_plot_file, auto_show_tables(annotation_dir=annotation_dir, n=5, clustering_column=clustering_column, show_diff=True)
 
+# "multiple_annotation" performs the annotation for multiple clustering columns based on the marker lists and returns the annotation results
+# This allows a facilitated comparison between different clusterings
+# The annotation results are stored as a list
 def multiple_annotation(adata, marker_lists, clustering_column_lists, rank_genes_column, celltype_column_name):
     annotation_results = []
     for column in clustering_column_lists:
@@ -412,7 +429,7 @@ def multiple_annotation(adata, marker_lists, clustering_column_lists, rank_genes
     
     return annotation_results
 
-
+# This function displays the UMAP plots for each annotation method and clustering column
 def show_umap_collection(annotation_df_list, clustering_column_lists):
     pattern = r'^([a-zA-Z]+)'
     methodes_dict = {}
@@ -459,11 +476,14 @@ def show_umap_collection(annotation_df_list, clustering_column_lists):
             plt.tight_layout()
             plt.show()
 
-
+# Creates a DataFrame comparing the cell type annotations using the different clustering methods
+# It enables a comparison of the cell type annotation across different methods and clustering results as a way to summarize the results
+# Each column represents a different method with the corresponding ari score
 def create_compare_df(adata, annotation_results, clustering_column_list):
     cell_types = list(set(value for df in annotation_results for value in df[1].iloc[:,0]))
     cell_types.append("ari_score")
 
+# This DataFrame summarizes the cell type annotations across the different clustering columns    
     merge_df = pd.DataFrame(columns=clustering_column_list, index=cell_types)
     merge_df = merge_df.fillna("")
 
@@ -484,7 +504,7 @@ def create_compare_df(adata, annotation_results, clustering_column_list):
 
     return merge_df
 
-
+# Finally, this function helps the user find and display a table from a specific cluster from the annotation results
 def find_cluster(methode, cluster_num, annotation_results):
     for df in annotation_results:
         if methode == str(df[0]):
