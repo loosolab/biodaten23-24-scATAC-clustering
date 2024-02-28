@@ -59,13 +59,13 @@ The segment below has information about the functionality of the main components
 ## Contents 
 - [Install.md](./Install.md): Installation Guide for Runtime Environment
 - [codes](./codes/): code folder
-  - [auto_annotation.py](./codes/auto_annotation.py): 
-  - [auto_annotation_notebook.ipynb](./codes/auto_annotation_notebook.ipynb):
-  - [homology_notebook.ipynb](./codes/homology_notebook.ipynb):
-  - [submit_new_marker_list_notebook.ipynb](./codes/submit_new_marker_list_notebook.ipynb):
-- [data](./data/):
-  - [DataSheet1.XLSX](./data/DataSheet1.XLSX): 
-  - [DataSheet2.XLSX](./data/DataSheet2.XLSX): 
+  - [auto_annotation.py](./codes/auto_annotation.py): The Python file contains the code used in the "auto_annotation_notebook.ipynb" to perform the automation of cell annotation using marker genes
+  - [auto_annotation_notebook.ipynb](./codes/auto_annotation_notebook.ipynb): This Jupyter notebook provides a step-by-step description of the cell annotation process of the cluster obtained from WP1
+  - [homology_notebook.ipynb](./codes/homology_notebook.ipynb): This notebook performs cluster annotation usign human markers translated from zebrafish markers using the "homology" function
+  - [submit_new_marker_list_notebook.ipynb](./codes/submit_new_marker_list_notebook.ipynb):The notebook provides a detailed explanation of the process for submitting a list of markers to MarkerRepo (the code has been adjusted to process the format of the two Excel files listed below)
+- [data](./data/): 
+  - [DataSheet1.XLSX](./data/DataSheet1.XLSX): Contains all the markers belonging to the zebrafish landscape
+  - [DataSheet2.XLSX](./data/DataSheet2.XLSX): Contains the markers for each zebrafish tissue on a separate sheet 
   - [source_from_wp1](./data/source_from_wp1/): All used metadata files
 - [results](./results/): Result folder for different metadata
 - ~~[archive](./archive/): Outdated documents~~
